@@ -1,2 +1,2 @@
 # Spacecraft Database
-This is a database of spacecraft metadata and configuration.
+Spacecraft metadata and configuration database in JSON format.
