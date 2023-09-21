@@ -1,3 +1,15 @@
+stages: ["build", "test"]
+
+build:
+  stage: build 
+  tags: ["ssec_shared", "docker_exec"]
+  image: "rockylinux/rockylinux:latest"
+  script:
+    - dnf -yqq install jq
+    - ./build.sh
+  artifacts:
+    paths:
+      - spacecraftsdb.json
 
 test:
   stage: test
@@ -5,4 +17,4 @@ test:
   image: "rockylinux/rockylinux:latest"
   script:
     - dnf -yqq install python3-jsonschema
-    - jsonschema-3 -i spacecrafts.json schema.json
+    - jsonschema-3 -i spacecraftsdb.json schema.json
