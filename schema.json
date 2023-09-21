@@ -1,0 +1,139 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dbrtn.net/schemas/spacecraft-database.schema.json",
+  "title": "Database of spacecraft static metadata",
+  "description": "Spacecrafts database schema",
+  "type": "object",
+  "properties": {
+    "version": {
+      "description": "Database version",
+      "type": "string"
+    },
+    "generated": {
+      "description": "Timestamp the database was generated",
+      "type": "string",
+      "format": "date-time"
+    },
+    "spacecrafts": {
+      "description": "Supported known spacecrafts",
+      "type": "array", 
+      "items": {
+        "$ref": "#/$defs/spacecraft"
+      }
+    }
+  },
+  "required": ["version", "generated", "spacecrafts"],
+  "$defs": {
+    "spacecraft": {
+      "description": "Spacecraft data",
+      "type": "object",
+      "properties": {
+        "scid": {
+          "description": "Spacecraft identifier; see https://sanaregistry.org/r/spacecraftid",
+          "type": "integer"
+        },
+        "name": {
+          "description": "Spacecraft non-canonical name. May not be unique",
+          "type": "string"
+        },
+        "aliases": {
+          "description": "Spacecraft alias names",
+          "type": "array", 
+          "items": {"type": "string"}
+        },
+        "catalogNumber": {
+          "description": "NORAD catalog number",
+          "type": "integer"
+        },
+        "framingConfig": {"$ref": "#/$defs/framingConfig"},
+        "vcids": {
+          "description": "List of available virtual channels",
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/virtualChannel"
+          }
+        }
+      },
+      "required": ["scid", "framingConfig", "vcids"]
+    },
+    "framingConfig": {
+      "description": "Spacecraft downlink framing parameters necessary to decode",
+      "type": "object",
+      "properties": {
+        "length": {
+          "description": "Length of the frame, i.e. no ASM or RS parity bytes",
+          "type": "integer",
+          "minimum": 0
+        },
+        "insertZoneLength": {
+          "description": "Number of bytes in the insert zone",
+          "type": "integer",
+          "minimum": 0
+        },
+        "trailerLength": {
+          "description": "Number of bytes in the frame trailer",
+          "type": "integer",
+          "minimum": 0
+        },
+        "pseudoNoise": {
+          "description": "Pseudo noise configuration",
+          "type": "object",
+          "const": {}
+        },
+        "reedSolomon": {
+          "description": "Reed-solomon forward-error correction config",
+          "type": "object", 
+          "properties": {
+            "interleave": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 5
+            },
+            "virtualFillLength": {
+              "description": "Number of bytes of virtual fill used",
+              "type": "integer",
+              "minimum": 0
+            },
+            "numCorrectable": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        }
+      },
+      "required": ["length", "insertZoneLength", "trailerLength", "pseudoNoise", "reedSolomon"]
+    },
+    "virtualChannel": {
+      "description": "Spacecraft virtual channel",
+      "type": "object",
+      "properties": {
+        "vcid": {
+          "description": "Virtual channel id",
+          "type": "integer"
+        },
+        "description": {"type": "string"},
+        "apids": {
+          "description": "Application identifiers",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "apid": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 2048
+              },
+              "sensor": {
+                "description": "Sensor this APID is for, if any",
+                "type": "string"
+              },
+              "description": {"type": "string"}
+            },
+            "required": ["apid"]
+          }
+        }
+      },
+      "required": ["vcid", "apids"]
+    }
+  }
+}
