@@ -5,7 +5,7 @@ build:
   tags: ["ssec_shared", "docker"]
   image: "rockylinux/rockylinux:latest"
   script:
-    - dnf -yqq install jq
+    - dnf -yqq install git jq
     - ./build.sh
   artifacts:
     paths:
