@@ -10,6 +10,7 @@ build:
   artifacts:
     paths:
       - spacecraftsdb.json
+      - spacecraftsdb.json.sha256
 
 test:
   stage: test
