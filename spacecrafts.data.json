@@ -5,7 +5,7 @@
     "aliases": [],
     "catalogNumber": 37849,
     "framingConfig": {
-      "length": 952,
+      "length": 892,
       "insertZoneLength": 0,
       "trailerLength": 0,
       "pseudoNoise": {},
@@ -1343,7 +1343,7 @@
     "aliases": [],
     "catalogNumber": 43013,
     "framingConfig": {
-      "length": 952,
+      "length": 892,
       "insertZoneLength": 0,
       "trailerLength": 0,
       "pseudoNoise": {},
@@ -2681,7 +2681,7 @@
     "aliases": [],
     "catalogNumber": 0,
     "framingConfig": {
-      "length": 1191,
+      "length": 1115,
       "insertZoneLength": 9,
       "trailerLength": 4,
       "pseudoNoise": {},
@@ -3952,7 +3952,7 @@
     "aliases": [],
     "catalogNumber": 0,
     "framingConfig": {
-      "length": 1191,
+      "length": 1115,
       "insertZoneLength": 9,
       "trailerLength": 4,
       "pseudoNoise": {},
@@ -5223,7 +5223,7 @@
     "aliases": [],
     "catalogNumber": 0,
     "framingConfig": {
-      "length": 1191,
+      "length": 1115,
       "insertZoneLength": 9,
       "trailerLength": 4,
       "pseudoNoise": {},
@@ -6494,7 +6494,7 @@
     "aliases": [],
     "catalogNumber": 25944,
     "framingConfig": {
-      "length": 952,
+      "length": 892,
       "insertZoneLength": 0,
       "trailerLength": 0,
       "pseudoNoise": {},
@@ -6524,7 +6524,7 @@
     "aliases": [],
     "catalogNumber": 27424,
     "framingConfig": {
-      "length": 952,
+      "length": 892,
       "insertZoneLength": 0,
       "trailerLength": 0,
       "pseudoNoise": {},
