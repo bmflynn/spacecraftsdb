@@ -23,7 +23,10 @@
           {
             "apid": 0,
             "sensor": "spacecraft",
-            "description": "Bus critical"
+            "description": "Bus critical",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1,
@@ -63,7 +66,10 @@
           {
             "apid": 8,
             "sensor": "spacecraft",
-            "description": "ADCS HSK Telemetry HR"
+            "description": "ADCS HSK Telemetry HR",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 9,
@@ -78,7 +84,10 @@
           {
             "apid": 11,
             "sensor": "spacecraft",
-            "description": "Ephemeris/attitude"
+            "description": "Ephemeris/attitude",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 12,
@@ -173,7 +182,10 @@
           {
             "apid": 30,
             "sensor": "spacecraft",
-            "description": "ACS 10hz SOH"
+            "description": "ACS 10hz SOH",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 31,
@@ -193,7 +205,10 @@
           {
             "apid": 34,
             "sensor": "spacecraft",
-            "description": "ACS 1hz SOH"
+            "description": "ACS 1hz SOH",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 35,
@@ -208,7 +223,10 @@
           {
             "apid": 37,
             "sensor": "spacecraft",
-            "description": "ACS 1hz SOH"
+            "description": "ACS 1hz SOH",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 38,
@@ -379,22 +397,34 @@
           {
             "apid": 515,
             "sensor": "atms",
-            "description": "ATMS cal"
+            "description": "ATMS cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 528,
             "sensor": "atms",
-            "description": "ATMS sci"
+            "description": "ATMS sci",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 530,
             "sensor": "atms",
-            "description": "ATMS engr hot cal"
+            "description": "ATMS engr hot cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 531,
             "sensor": "atms",
-            "description": "ATMS engr status"
+            "description": "ATMS engr status",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           }
         ]
       },
@@ -421,372 +451,594 @@
           {
             "apid": 1289,
             "sensor": "cris",
-            "description": "CrIS sci telemetry"
+            "description": "CrIS sci telemetry",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1290,
             "sensor": "cris",
-            "description": "CrIS engr telemetry"
+            "description": "CrIS engr telemetry",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1315,
             "sensor": "cris",
-            "description": "CrIS LW 1 earth scene"
+            "description": "CrIS LW 1 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1316,
             "sensor": "cris",
-            "description": "CrIS LW 2 earth scene"
+            "description": "CrIS LW 2 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1317,
             "sensor": "cris",
-            "description": "CrIS LW 3 earth scene"
+            "description": "CrIS LW 3 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1319,
             "sensor": "cris",
-            "description": "CrIS LW 5 earth scene"
+            "description": "CrIS LW 5 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1320,
             "sensor": "cris",
-            "description": "CrIS LW 6 earth scene"
+            "description": "CrIS LW 6 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1321,
             "sensor": "cris",
-            "description": "CrIS LW 7 earth scene"
+            "description": "CrIS LW 7 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1322,
             "sensor": "cris",
-            "description": "CrIS LW 8 earth scene"
+            "description": "CrIS LW 8 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1323,
             "sensor": "cris",
-            "description": "CrIS LW 9 earth scene"
+            "description": "CrIS LW 9 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1324,
             "sensor": "cris",
-            "description": "CrIS MW 1 earth scene"
+            "description": "CrIS MW 1 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1325,
             "sensor": "cris",
-            "description": "CrIS MW 2 earth scene"
+            "description": "CrIS MW 2 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1326,
             "sensor": "cris",
-            "description": "CrIS MW 3 earth scene"
+            "description": "CrIS MW 3 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1328,
             "sensor": "cris",
-            "description": "CrIS MW 5 earth scene"
+            "description": "CrIS MW 5 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1329,
             "sensor": "cris",
-            "description": "CrIS MW 6 earth scene"
+            "description": "CrIS MW 6 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1330,
             "sensor": "cris",
-            "description": "CrIS MW 7 earth scene"
+            "description": "CrIS MW 7 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1331,
             "sensor": "cris",
-            "description": "CrIS MW 8 earth scene"
+            "description": "CrIS MW 8 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1332,
             "sensor": "cris",
-            "description": "CrIS MW 9 earth scene"
+            "description": "CrIS MW 9 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1333,
             "sensor": "cris",
-            "description": "CrIS SW 1 earth scene"
+            "description": "CrIS SW 1 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1334,
             "sensor": "cris",
-            "description": "CrIS SW 2 earth scene"
+            "description": "CrIS SW 2 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1335,
             "sensor": "cris",
-            "description": "CrIS SW 3 earth scene"
+            "description": "CrIS SW 3 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1337,
             "sensor": "cris",
-            "description": "CrIS SW 5 earth scene"
+            "description": "CrIS SW 5 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1338,
             "sensor": "cris",
-            "description": "CrIS SW 6 earth scene"
+            "description": "CrIS SW 6 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1339,
             "sensor": "cris",
-            "description": "CrIS SW 7 earth scene"
+            "description": "CrIS SW 7 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1340,
             "sensor": "cris",
-            "description": "CrIS SW 8 earth scene"
+            "description": "CrIS SW 8 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1341,
             "sensor": "cris",
-            "description": "CrIS SW 9 earth scene"
+            "description": "CrIS SW 9 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1342,
             "sensor": "cris",
-            "description": "CrIS LW 1 deep space"
+            "description": "CrIS LW 1 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1343,
             "sensor": "cris",
-            "description": "CrIS LW 2 deep space"
+            "description": "CrIS LW 2 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1344,
             "sensor": "cris",
-            "description": "CrIS LW 3 deep space"
+            "description": "CrIS LW 3 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1346,
             "sensor": "cris",
-            "description": "CrIS LW 5 deep space"
+            "description": "CrIS LW 5 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1347,
             "sensor": "cris",
-            "description": "CrIS LW 6 deep space"
+            "description": "CrIS LW 6 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1348,
             "sensor": "cris",
-            "description": "CrIS LW 7 deep space"
+            "description": "CrIS LW 7 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1349,
             "sensor": "cris",
-            "description": "CrIS LW 8 deep space"
+            "description": "CrIS LW 8 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1350,
             "sensor": "cris",
-            "description": "CrIS LW 9 deep space"
+            "description": "CrIS LW 9 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1351,
             "sensor": "cris",
-            "description": "CrIS MW 1 deep space"
+            "description": "CrIS MW 1 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1352,
             "sensor": "cris",
-            "description": "CrIS MW 2 deep space"
+            "description": "CrIS MW 2 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1353,
             "sensor": "cris",
-            "description": "CrIS MW 3 deep space"
+            "description": "CrIS MW 3 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1355,
             "sensor": "cris",
-            "description": "CrIS MW 5 deep space"
+            "description": "CrIS MW 5 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1356,
             "sensor": "cris",
-            "description": "CrIS MW 6 deep space"
+            "description": "CrIS MW 6 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1357,
             "sensor": "cris",
-            "description": "CrIS MW 7 deep space"
+            "description": "CrIS MW 7 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1358,
             "sensor": "cris",
-            "description": "CrIS MW 8 deep space"
+            "description": "CrIS MW 8 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1359,
             "sensor": "cris",
-            "description": "CrIS MW 9 deep space"
+            "description": "CrIS MW 9 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1360,
             "sensor": "cris",
-            "description": "CrIS SW 1 deep space"
+            "description": "CrIS SW 1 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1361,
             "sensor": "cris",
-            "description": "CrIS SW 2 deep space"
+            "description": "CrIS SW 2 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1362,
             "sensor": "cris",
-            "description": "CrIS SW 3 deep space"
+            "description": "CrIS SW 3 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1364,
             "sensor": "cris",
-            "description": "CrIS SW 5 deep space"
+            "description": "CrIS SW 5 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1365,
             "sensor": "cris",
-            "description": "CrIS SW 6 deep space"
+            "description": "CrIS SW 6 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1366,
             "sensor": "cris",
-            "description": "CrIS SW 7 deep space"
+            "description": "CrIS SW 7 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1367,
             "sensor": "cris",
-            "description": "CrIS SW 8 deep space"
+            "description": "CrIS SW 8 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1368,
             "sensor": "cris",
-            "description": "CrIS SW 9 deep space"
+            "description": "CrIS SW 9 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1369,
             "sensor": "cris",
-            "description": "CrIS LW 1 internal cal"
+            "description": "CrIS LW 1 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1370,
             "sensor": "cris",
-            "description": "CrIS LW 2 internal cal"
+            "description": "CrIS LW 2 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1371,
             "sensor": "cris",
-            "description": "CrIS LW 3 internal cal"
+            "description": "CrIS LW 3 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1373,
             "sensor": "cris",
-            "description": "CrIS LW 5 internal cal"
+            "description": "CrIS LW 5 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1374,
             "sensor": "cris",
-            "description": "CrIS LW 6 internal cal"
+            "description": "CrIS LW 6 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1375,
             "sensor": "cris",
-            "description": "CrIS LW 7 internal cal"
+            "description": "CrIS LW 7 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1376,
             "sensor": "cris",
-            "description": "CrIS LW 8 internal cal"
+            "description": "CrIS LW 8 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1377,
             "sensor": "cris",
-            "description": "CrIS LW 9 internal cal"
+            "description": "CrIS LW 9 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1378,
             "sensor": "cris",
-            "description": "CrIS MW 1 internal cal"
+            "description": "CrIS MW 1 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1379,
             "sensor": "cris",
-            "description": "CrIS MW 2 internal cal"
+            "description": "CrIS MW 2 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1380,
             "sensor": "cris",
-            "description": "CrIS MW 3 internal cal"
+            "description": "CrIS MW 3 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1382,
             "sensor": "cris",
-            "description": "CrIS MW 5 internal cal"
+            "description": "CrIS MW 5 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1383,
             "sensor": "cris",
-            "description": "CrIS MW 6 internal cal"
+            "description": "CrIS MW 6 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1384,
             "sensor": "cris",
-            "description": "CrIS MW 7 internal cal"
+            "description": "CrIS MW 7 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1385,
             "sensor": "cris",
-            "description": "CrIS MW 8 internal cal"
+            "description": "CrIS MW 8 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1386,
             "sensor": "cris",
-            "description": "CrIS MW 9 internal cal"
+            "description": "CrIS MW 9 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1387,
             "sensor": "cris",
-            "description": "CrIS SW 1 internal cal"
+            "description": "CrIS SW 1 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1388,
             "sensor": "cris",
-            "description": "CrIS SW 2 internal cal"
+            "description": "CrIS SW 2 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1389,
             "sensor": "cris",
-            "description": "CrIS SW 3 internal cal"
+            "description": "CrIS SW 3 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1391,
             "sensor": "cris",
-            "description": "CrIS SW 5 internal cal"
+            "description": "CrIS SW 5 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1392,
             "sensor": "cris",
-            "description": "CrIS SW 6 internal cal"
+            "description": "CrIS SW 6 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1393,
             "sensor": "cris",
-            "description": "CrIS SW 7 internal cal"
+            "description": "CrIS SW 7 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1394,
             "sensor": "cris",
-            "description": "CrIS SW 8 internal cal"
+            "description": "CrIS SW 8 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1395,
             "sensor": "cris",
-            "description": "CrIS SW 9 internal cal"
+            "description": "CrIS SW 9 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           }
         ]
       },
@@ -797,47 +1049,74 @@
           {
             "apid": 1318,
             "sensor": "cris",
-            "description": "CrIS LW 4 earth scene"
+            "description": "CrIS LW 4 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1327,
             "sensor": "cris",
-            "description": "CrIS MW 4 earth scene"
+            "description": "CrIS MW 4 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1336,
             "sensor": "cris",
-            "description": "CrIS SW 4 earth scene"
+            "description": "CrIS SW 4 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1345,
             "sensor": "cris",
-            "description": "CrIS LW 4 deep space"
+            "description": "CrIS LW 4 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1354,
             "sensor": "cris",
-            "description": "CrIS MW 4 deep space"
+            "description": "CrIS MW 4 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1363,
             "sensor": "cris",
-            "description": "CrIS SW 4 deep space"
+            "description": "CrIS SW 4 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1372,
             "sensor": "cris",
-            "description": "CrIS LW 4 internal cal"
+            "description": "CrIS LW 4 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1381,
             "sensor": "cris",
-            "description": "CrIS MW 4 internal cal"
+            "description": "CrIS MW 4 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1390,
             "sensor": "cris",
-            "description": "CrIS SW 4 internal cal"
+            "description": "CrIS SW 4 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           }
         ]
       },
@@ -967,132 +1246,210 @@
           {
             "apid": 800,
             "sensor": "viirs",
-            "description": "VIIRS M04"
+            "description": "VIIRS M04",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 801,
             "sensor": "viirs",
-            "description": "VIIRS M05"
+            "description": "VIIRS M05",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 802,
             "sensor": "viirs",
-            "description": "VIIRS M03"
+            "description": "VIIRS M03",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 803,
             "sensor": "viirs",
-            "description": "VIIRS M02"
+            "description": "VIIRS M02",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 804,
             "sensor": "viirs",
-            "description": "VIIRS M01"
+            "description": "VIIRS M01",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 805,
             "sensor": "viirs",
-            "description": "VIIRS M06"
+            "description": "VIIRS M06",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 807,
             "sensor": "viirs",
-            "description": "VIIRS M09"
+            "description": "VIIRS M09",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 808,
             "sensor": "viirs",
-            "description": "VIIRS M10"
+            "description": "VIIRS M10",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 809,
             "sensor": "viirs",
-            "description": "VIIRS M08"
+            "description": "VIIRS M08",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 810,
             "sensor": "viirs",
-            "description": "VIIRS M11"
+            "description": "VIIRS M11",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 811,
             "sensor": "viirs",
-            "description": "VIIRS M13"
+            "description": "VIIRS M13",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 812,
             "sensor": "viirs",
-            "description": "VIIRS M12"
+            "description": "VIIRS M12",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 813,
             "sensor": "viirs",
-            "description": "VIIRS I04"
+            "description": "VIIRS I04",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 814,
             "sensor": "viirs",
-            "description": "VIIRS M16"
+            "description": "VIIRS M16",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 815,
             "sensor": "viirs",
-            "description": "VIIRS M15"
+            "description": "VIIRS M15",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 816,
             "sensor": "viirs",
-            "description": "VIIRS M14"
+            "description": "VIIRS M14",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 817,
             "sensor": "viirs",
-            "description": "VIIRS I05"
+            "description": "VIIRS I05",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 818,
             "sensor": "viirs",
-            "description": "VIIRS I01"
+            "description": "VIIRS I01",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 819,
             "sensor": "viirs",
-            "description": "VIIRS I02"
+            "description": "VIIRS I02",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 820,
             "sensor": "viirs",
-            "description": "VIIRS I03"
+            "description": "VIIRS I03",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 821,
             "sensor": "viirs",
-            "description": "VIIRS DNB"
+            "description": "VIIRS DNB",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 822,
             "sensor": "viirs",
-            "description": "VIIRS DNB MSG"
+            "description": "VIIRS DNB MSG",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 823,
             "sensor": "viirs",
-            "description": "VIIRS DNB LGS"
+            "description": "VIIRS DNB LGS",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 825,
             "sensor": "viirs",
-            "description": "VIIRS cal"
+            "description": "VIIRS cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 826,
             "sensor": "viirs",
-            "description": "VIIRS engr"
+            "description": "VIIRS engr",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 824,
             "sensor": "viirs",
-            "description": "VIIRS Test"
+            "description": "VIIRS Test",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           }
         ]
       },
@@ -1108,7 +1465,10 @@
           {
             "apid": 806,
             "sensor": "viirs",
-            "description": "VIIRS M07"
+            "description": "VIIRS M07",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           }
         ]
       },
@@ -1361,7 +1721,10 @@
           {
             "apid": 0,
             "sensor": "spacecraft",
-            "description": "Bus critical"
+            "description": "Bus critical",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1,
@@ -1401,7 +1764,10 @@
           {
             "apid": 8,
             "sensor": "spacecraft",
-            "description": "ADCS HSK Telemetry HR"
+            "description": "ADCS HSK Telemetry HR",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 9,
@@ -1416,7 +1782,10 @@
           {
             "apid": 11,
             "sensor": "spacecraft",
-            "description": "Ephemeris/attitude"
+            "description": "Ephemeris/attitude",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 12,
@@ -1511,7 +1880,10 @@
           {
             "apid": 30,
             "sensor": "spacecraft",
-            "description": "ACS 10hz SOH"
+            "description": "ACS 10hz SOH",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 31,
@@ -1531,7 +1903,10 @@
           {
             "apid": 34,
             "sensor": "spacecraft",
-            "description": "ACS 1hz SOH"
+            "description": "ACS 1hz SOH",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 35,
@@ -1546,7 +1921,10 @@
           {
             "apid": 37,
             "sensor": "spacecraft",
-            "description": "ACS 1hz SOH"
+            "description": "ACS 1hz SOH",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 38,
@@ -1717,22 +2095,34 @@
           {
             "apid": 515,
             "sensor": "atms",
-            "description": "ATMS cal"
+            "description": "ATMS cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 528,
             "sensor": "atms",
-            "description": "ATMS sci"
+            "description": "ATMS sci",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 530,
             "sensor": "atms",
-            "description": "ATMS engr hot cal"
+            "description": "ATMS engr hot cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 531,
             "sensor": "atms",
-            "description": "ATMS engr status"
+            "description": "ATMS engr status",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           }
         ]
       },
@@ -1759,372 +2149,594 @@
           {
             "apid": 1289,
             "sensor": "cris",
-            "description": "CrIS sci telemetry"
+            "description": "CrIS sci telemetry",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1290,
             "sensor": "cris",
-            "description": "CrIS engr telemetry"
+            "description": "CrIS engr telemetry",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1315,
             "sensor": "cris",
-            "description": "CrIS LW 1 earth scene"
+            "description": "CrIS LW 1 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1316,
             "sensor": "cris",
-            "description": "CrIS LW 2 earth scene"
+            "description": "CrIS LW 2 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1317,
             "sensor": "cris",
-            "description": "CrIS LW 3 earth scene"
+            "description": "CrIS LW 3 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1319,
             "sensor": "cris",
-            "description": "CrIS LW 5 earth scene"
+            "description": "CrIS LW 5 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1320,
             "sensor": "cris",
-            "description": "CrIS LW 6 earth scene"
+            "description": "CrIS LW 6 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1321,
             "sensor": "cris",
-            "description": "CrIS LW 7 earth scene"
+            "description": "CrIS LW 7 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1322,
             "sensor": "cris",
-            "description": "CrIS LW 8 earth scene"
+            "description": "CrIS LW 8 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1323,
             "sensor": "cris",
-            "description": "CrIS LW 9 earth scene"
+            "description": "CrIS LW 9 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1324,
             "sensor": "cris",
-            "description": "CrIS MW 1 earth scene"
+            "description": "CrIS MW 1 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1325,
             "sensor": "cris",
-            "description": "CrIS MW 2 earth scene"
+            "description": "CrIS MW 2 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1326,
             "sensor": "cris",
-            "description": "CrIS MW 3 earth scene"
+            "description": "CrIS MW 3 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1328,
             "sensor": "cris",
-            "description": "CrIS MW 5 earth scene"
+            "description": "CrIS MW 5 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1329,
             "sensor": "cris",
-            "description": "CrIS MW 6 earth scene"
+            "description": "CrIS MW 6 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1330,
             "sensor": "cris",
-            "description": "CrIS MW 7 earth scene"
+            "description": "CrIS MW 7 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1331,
             "sensor": "cris",
-            "description": "CrIS MW 8 earth scene"
+            "description": "CrIS MW 8 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1332,
             "sensor": "cris",
-            "description": "CrIS MW 9 earth scene"
+            "description": "CrIS MW 9 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1333,
             "sensor": "cris",
-            "description": "CrIS SW 1 earth scene"
+            "description": "CrIS SW 1 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1334,
             "sensor": "cris",
-            "description": "CrIS SW 2 earth scene"
+            "description": "CrIS SW 2 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1335,
             "sensor": "cris",
-            "description": "CrIS SW 3 earth scene"
+            "description": "CrIS SW 3 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1337,
             "sensor": "cris",
-            "description": "CrIS SW 5 earth scene"
+            "description": "CrIS SW 5 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1338,
             "sensor": "cris",
-            "description": "CrIS SW 6 earth scene"
+            "description": "CrIS SW 6 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1339,
             "sensor": "cris",
-            "description": "CrIS SW 7 earth scene"
+            "description": "CrIS SW 7 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1340,
             "sensor": "cris",
-            "description": "CrIS SW 8 earth scene"
+            "description": "CrIS SW 8 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1341,
             "sensor": "cris",
-            "description": "CrIS SW 9 earth scene"
+            "description": "CrIS SW 9 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1342,
             "sensor": "cris",
-            "description": "CrIS LW 1 deep space"
+            "description": "CrIS LW 1 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1343,
             "sensor": "cris",
-            "description": "CrIS LW 2 deep space"
+            "description": "CrIS LW 2 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1344,
             "sensor": "cris",
-            "description": "CrIS LW 3 deep space"
+            "description": "CrIS LW 3 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1346,
             "sensor": "cris",
-            "description": "CrIS LW 5 deep space"
+            "description": "CrIS LW 5 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1347,
             "sensor": "cris",
-            "description": "CrIS LW 6 deep space"
+            "description": "CrIS LW 6 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1348,
             "sensor": "cris",
-            "description": "CrIS LW 7 deep space"
+            "description": "CrIS LW 7 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1349,
             "sensor": "cris",
-            "description": "CrIS LW 8 deep space"
+            "description": "CrIS LW 8 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1350,
             "sensor": "cris",
-            "description": "CrIS LW 9 deep space"
+            "description": "CrIS LW 9 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1351,
             "sensor": "cris",
-            "description": "CrIS MW 1 deep space"
+            "description": "CrIS MW 1 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1352,
             "sensor": "cris",
-            "description": "CrIS MW 2 deep space"
+            "description": "CrIS MW 2 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1353,
             "sensor": "cris",
-            "description": "CrIS MW 3 deep space"
+            "description": "CrIS MW 3 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1355,
             "sensor": "cris",
-            "description": "CrIS MW 5 deep space"
+            "description": "CrIS MW 5 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1356,
             "sensor": "cris",
-            "description": "CrIS MW 6 deep space"
+            "description": "CrIS MW 6 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1357,
             "sensor": "cris",
-            "description": "CrIS MW 7 deep space"
+            "description": "CrIS MW 7 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1358,
             "sensor": "cris",
-            "description": "CrIS MW 8 deep space"
+            "description": "CrIS MW 8 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1359,
             "sensor": "cris",
-            "description": "CrIS MW 9 deep space"
+            "description": "CrIS MW 9 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1360,
             "sensor": "cris",
-            "description": "CrIS SW 1 deep space"
+            "description": "CrIS SW 1 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1361,
             "sensor": "cris",
-            "description": "CrIS SW 2 deep space"
+            "description": "CrIS SW 2 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1362,
             "sensor": "cris",
-            "description": "CrIS SW 3 deep space"
+            "description": "CrIS SW 3 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1364,
             "sensor": "cris",
-            "description": "CrIS SW 5 deep space"
+            "description": "CrIS SW 5 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1365,
             "sensor": "cris",
-            "description": "CrIS SW 6 deep space"
+            "description": "CrIS SW 6 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1366,
             "sensor": "cris",
-            "description": "CrIS SW 7 deep space"
+            "description": "CrIS SW 7 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1367,
             "sensor": "cris",
-            "description": "CrIS SW 8 deep space"
+            "description": "CrIS SW 8 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1368,
             "sensor": "cris",
-            "description": "CrIS SW 9 deep space"
+            "description": "CrIS SW 9 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1369,
             "sensor": "cris",
-            "description": "CrIS LW 1 internal cal"
+            "description": "CrIS LW 1 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1370,
             "sensor": "cris",
-            "description": "CrIS LW 2 internal cal"
+            "description": "CrIS LW 2 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1371,
             "sensor": "cris",
-            "description": "CrIS LW 3 internal cal"
+            "description": "CrIS LW 3 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1373,
             "sensor": "cris",
-            "description": "CrIS LW 5 internal cal"
+            "description": "CrIS LW 5 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1374,
             "sensor": "cris",
-            "description": "CrIS LW 6 internal cal"
+            "description": "CrIS LW 6 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1375,
             "sensor": "cris",
-            "description": "CrIS LW 7 internal cal"
+            "description": "CrIS LW 7 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1376,
             "sensor": "cris",
-            "description": "CrIS LW 8 internal cal"
+            "description": "CrIS LW 8 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1377,
             "sensor": "cris",
-            "description": "CrIS LW 9 internal cal"
+            "description": "CrIS LW 9 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1378,
             "sensor": "cris",
-            "description": "CrIS MW 1 internal cal"
+            "description": "CrIS MW 1 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1379,
             "sensor": "cris",
-            "description": "CrIS MW 2 internal cal"
+            "description": "CrIS MW 2 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1380,
             "sensor": "cris",
-            "description": "CrIS MW 3 internal cal"
+            "description": "CrIS MW 3 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1382,
             "sensor": "cris",
-            "description": "CrIS MW 5 internal cal"
+            "description": "CrIS MW 5 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1383,
             "sensor": "cris",
-            "description": "CrIS MW 6 internal cal"
+            "description": "CrIS MW 6 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1384,
             "sensor": "cris",
-            "description": "CrIS MW 7 internal cal"
+            "description": "CrIS MW 7 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1385,
             "sensor": "cris",
-            "description": "CrIS MW 8 internal cal"
+            "description": "CrIS MW 8 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1386,
             "sensor": "cris",
-            "description": "CrIS MW 9 internal cal"
+            "description": "CrIS MW 9 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1387,
             "sensor": "cris",
-            "description": "CrIS SW 1 internal cal"
+            "description": "CrIS SW 1 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1388,
             "sensor": "cris",
-            "description": "CrIS SW 2 internal cal"
+            "description": "CrIS SW 2 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1389,
             "sensor": "cris",
-            "description": "CrIS SW 3 internal cal"
+            "description": "CrIS SW 3 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1391,
             "sensor": "cris",
-            "description": "CrIS SW 5 internal cal"
+            "description": "CrIS SW 5 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1392,
             "sensor": "cris",
-            "description": "CrIS SW 6 internal cal"
+            "description": "CrIS SW 6 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1393,
             "sensor": "cris",
-            "description": "CrIS SW 7 internal cal"
+            "description": "CrIS SW 7 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1394,
             "sensor": "cris",
-            "description": "CrIS SW 8 internal cal"
+            "description": "CrIS SW 8 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1395,
             "sensor": "cris",
-            "description": "CrIS SW 9 internal cal"
+            "description": "CrIS SW 9 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           }
         ]
       },
@@ -2135,47 +2747,74 @@
           {
             "apid": 1318,
             "sensor": "cris",
-            "description": "CrIS LW 4 earth scene"
+            "description": "CrIS LW 4 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1327,
             "sensor": "cris",
-            "description": "CrIS MW 4 earth scene"
+            "description": "CrIS MW 4 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1336,
             "sensor": "cris",
-            "description": "CrIS SW 4 earth scene"
+            "description": "CrIS SW 4 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1345,
             "sensor": "cris",
-            "description": "CrIS LW 4 deep space"
+            "description": "CrIS LW 4 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1354,
             "sensor": "cris",
-            "description": "CrIS MW 4 deep space"
+            "description": "CrIS MW 4 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1363,
             "sensor": "cris",
-            "description": "CrIS SW 4 deep space"
+            "description": "CrIS SW 4 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1372,
             "sensor": "cris",
-            "description": "CrIS LW 4 internal cal"
+            "description": "CrIS LW 4 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1381,
             "sensor": "cris",
-            "description": "CrIS MW 4 internal cal"
+            "description": "CrIS MW 4 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1390,
             "sensor": "cris",
-            "description": "CrIS SW 4 internal cal"
+            "description": "CrIS SW 4 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           }
         ]
       },
@@ -2305,132 +2944,210 @@
           {
             "apid": 800,
             "sensor": "viirs",
-            "description": "VIIRS M04"
+            "description": "VIIRS M04",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 801,
             "sensor": "viirs",
-            "description": "VIIRS M05"
+            "description": "VIIRS M05",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 802,
             "sensor": "viirs",
-            "description": "VIIRS M03"
+            "description": "VIIRS M03",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 803,
             "sensor": "viirs",
-            "description": "VIIRS M02"
+            "description": "VIIRS M02",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 804,
             "sensor": "viirs",
-            "description": "VIIRS M01"
+            "description": "VIIRS M01",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 805,
             "sensor": "viirs",
-            "description": "VIIRS M06"
+            "description": "VIIRS M06",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 807,
             "sensor": "viirs",
-            "description": "VIIRS M09"
+            "description": "VIIRS M09",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 808,
             "sensor": "viirs",
-            "description": "VIIRS M10"
+            "description": "VIIRS M10",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 809,
             "sensor": "viirs",
-            "description": "VIIRS M08"
+            "description": "VIIRS M08",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 810,
             "sensor": "viirs",
-            "description": "VIIRS M11"
+            "description": "VIIRS M11",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 811,
             "sensor": "viirs",
-            "description": "VIIRS M13"
+            "description": "VIIRS M13",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 812,
             "sensor": "viirs",
-            "description": "VIIRS M12"
+            "description": "VIIRS M12",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 813,
             "sensor": "viirs",
-            "description": "VIIRS I04"
+            "description": "VIIRS I04",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 814,
             "sensor": "viirs",
-            "description": "VIIRS M16"
+            "description": "VIIRS M16",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 815,
             "sensor": "viirs",
-            "description": "VIIRS M15"
+            "description": "VIIRS M15",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 816,
             "sensor": "viirs",
-            "description": "VIIRS M14"
+            "description": "VIIRS M14",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 817,
             "sensor": "viirs",
-            "description": "VIIRS I05"
+            "description": "VIIRS I05",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 818,
             "sensor": "viirs",
-            "description": "VIIRS I01"
+            "description": "VIIRS I01",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 819,
             "sensor": "viirs",
-            "description": "VIIRS I02"
+            "description": "VIIRS I02",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 820,
             "sensor": "viirs",
-            "description": "VIIRS I03"
+            "description": "VIIRS I03",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 821,
             "sensor": "viirs",
-            "description": "VIIRS DNB"
+            "description": "VIIRS DNB",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 822,
             "sensor": "viirs",
-            "description": "VIIRS DNB MSG"
+            "description": "VIIRS DNB MSG",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 823,
             "sensor": "viirs",
-            "description": "VIIRS DNB LGS"
+            "description": "VIIRS DNB LGS",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 825,
             "sensor": "viirs",
-            "description": "VIIRS cal"
+            "description": "VIIRS cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 826,
             "sensor": "viirs",
-            "description": "VIIRS engr"
+            "description": "VIIRS engr",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 824,
             "sensor": "viirs",
-            "description": "VIIRS Test"
+            "description": "VIIRS Test",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           }
         ]
       },
@@ -2446,7 +3163,10 @@
           {
             "apid": 806,
             "sensor": "viirs",
-            "description": "VIIRS M07"
+            "description": "VIIRS M07",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           }
         ]
       },
@@ -2699,7 +3419,10 @@
           {
             "apid": 0,
             "sensor": "spacecraft",
-            "description": "Bus critical"
+            "description": "Bus critical",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1,
@@ -2739,7 +3462,10 @@
           {
             "apid": 8,
             "sensor": "spacecraft",
-            "description": "ADCS HSK Telemetry HR"
+            "description": "ADCS HSK Telemetry HR",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 9,
@@ -2754,7 +3480,10 @@
           {
             "apid": 11,
             "sensor": "spacecraft",
-            "description": "Ephemeris/attitude"
+            "description": "Ephemeris/attitude",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 12,
@@ -2849,7 +3578,10 @@
           {
             "apid": 30,
             "sensor": "spacecraft",
-            "description": "ACS 10hz SOH"
+            "description": "ACS 10hz SOH",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 31,
@@ -2869,7 +3601,10 @@
           {
             "apid": 34,
             "sensor": "spacecraft",
-            "description": "ACS 1hz SOH"
+            "description": "ACS 1hz SOH",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 35,
@@ -2884,7 +3619,10 @@
           {
             "apid": 37,
             "sensor": "spacecraft",
-            "description": "ACS 1hz SOH"
+            "description": "ACS 1hz SOH",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 38,
@@ -3055,22 +3793,34 @@
           {
             "apid": 515,
             "sensor": "atms",
-            "description": "ATMS cal"
+            "description": "ATMS cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 528,
             "sensor": "atms",
-            "description": "ATMS sci"
+            "description": "ATMS sci",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 530,
             "sensor": "atms",
-            "description": "ATMS engr hot cal"
+            "description": "ATMS engr hot cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 531,
             "sensor": "atms",
-            "description": "ATMS engr status"
+            "description": "ATMS engr status",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           }
         ]
       },
@@ -3097,372 +3847,594 @@
           {
             "apid": 1289,
             "sensor": "cris",
-            "description": "CrIS sci telemetry"
+            "description": "CrIS sci telemetry",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1290,
             "sensor": "cris",
-            "description": "CrIS engr telemetry"
+            "description": "CrIS engr telemetry",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1315,
             "sensor": "cris",
-            "description": "CrIS LW 1 earth scene"
+            "description": "CrIS LW 1 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1316,
             "sensor": "cris",
-            "description": "CrIS LW 2 earth scene"
+            "description": "CrIS LW 2 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1317,
             "sensor": "cris",
-            "description": "CrIS LW 3 earth scene"
+            "description": "CrIS LW 3 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1319,
             "sensor": "cris",
-            "description": "CrIS LW 5 earth scene"
+            "description": "CrIS LW 5 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1320,
             "sensor": "cris",
-            "description": "CrIS LW 6 earth scene"
+            "description": "CrIS LW 6 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1321,
             "sensor": "cris",
-            "description": "CrIS LW 7 earth scene"
+            "description": "CrIS LW 7 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1322,
             "sensor": "cris",
-            "description": "CrIS LW 8 earth scene"
+            "description": "CrIS LW 8 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1323,
             "sensor": "cris",
-            "description": "CrIS LW 9 earth scene"
+            "description": "CrIS LW 9 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1324,
             "sensor": "cris",
-            "description": "CrIS MW 1 earth scene"
+            "description": "CrIS MW 1 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1325,
             "sensor": "cris",
-            "description": "CrIS MW 2 earth scene"
+            "description": "CrIS MW 2 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1326,
             "sensor": "cris",
-            "description": "CrIS MW 3 earth scene"
+            "description": "CrIS MW 3 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1328,
             "sensor": "cris",
-            "description": "CrIS MW 5 earth scene"
+            "description": "CrIS MW 5 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1329,
             "sensor": "cris",
-            "description": "CrIS MW 6 earth scene"
+            "description": "CrIS MW 6 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1330,
             "sensor": "cris",
-            "description": "CrIS MW 7 earth scene"
+            "description": "CrIS MW 7 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1331,
             "sensor": "cris",
-            "description": "CrIS MW 8 earth scene"
+            "description": "CrIS MW 8 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1332,
             "sensor": "cris",
-            "description": "CrIS MW 9 earth scene"
+            "description": "CrIS MW 9 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1333,
             "sensor": "cris",
-            "description": "CrIS SW 1 earth scene"
+            "description": "CrIS SW 1 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1334,
             "sensor": "cris",
-            "description": "CrIS SW 2 earth scene"
+            "description": "CrIS SW 2 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1335,
             "sensor": "cris",
-            "description": "CrIS SW 3 earth scene"
+            "description": "CrIS SW 3 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1337,
             "sensor": "cris",
-            "description": "CrIS SW 5 earth scene"
+            "description": "CrIS SW 5 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1338,
             "sensor": "cris",
-            "description": "CrIS SW 6 earth scene"
+            "description": "CrIS SW 6 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1339,
             "sensor": "cris",
-            "description": "CrIS SW 7 earth scene"
+            "description": "CrIS SW 7 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1340,
             "sensor": "cris",
-            "description": "CrIS SW 8 earth scene"
+            "description": "CrIS SW 8 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1341,
             "sensor": "cris",
-            "description": "CrIS SW 9 earth scene"
+            "description": "CrIS SW 9 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1342,
             "sensor": "cris",
-            "description": "CrIS LW 1 deep space"
+            "description": "CrIS LW 1 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1343,
             "sensor": "cris",
-            "description": "CrIS LW 2 deep space"
+            "description": "CrIS LW 2 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1344,
             "sensor": "cris",
-            "description": "CrIS LW 3 deep space"
+            "description": "CrIS LW 3 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1346,
             "sensor": "cris",
-            "description": "CrIS LW 5 deep space"
+            "description": "CrIS LW 5 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1347,
             "sensor": "cris",
-            "description": "CrIS LW 6 deep space"
+            "description": "CrIS LW 6 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1348,
             "sensor": "cris",
-            "description": "CrIS LW 7 deep space"
+            "description": "CrIS LW 7 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1349,
             "sensor": "cris",
-            "description": "CrIS LW 8 deep space"
+            "description": "CrIS LW 8 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1350,
             "sensor": "cris",
-            "description": "CrIS LW 9 deep space"
+            "description": "CrIS LW 9 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1351,
             "sensor": "cris",
-            "description": "CrIS MW 1 deep space"
+            "description": "CrIS MW 1 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1352,
             "sensor": "cris",
-            "description": "CrIS MW 2 deep space"
+            "description": "CrIS MW 2 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1353,
             "sensor": "cris",
-            "description": "CrIS MW 3 deep space"
+            "description": "CrIS MW 3 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1355,
             "sensor": "cris",
-            "description": "CrIS MW 5 deep space"
+            "description": "CrIS MW 5 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1356,
             "sensor": "cris",
-            "description": "CrIS MW 6 deep space"
+            "description": "CrIS MW 6 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1357,
             "sensor": "cris",
-            "description": "CrIS MW 7 deep space"
+            "description": "CrIS MW 7 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1358,
             "sensor": "cris",
-            "description": "CrIS MW 8 deep space"
+            "description": "CrIS MW 8 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1359,
             "sensor": "cris",
-            "description": "CrIS MW 9 deep space"
+            "description": "CrIS MW 9 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1360,
             "sensor": "cris",
-            "description": "CrIS SW 1 deep space"
+            "description": "CrIS SW 1 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1361,
             "sensor": "cris",
-            "description": "CrIS SW 2 deep space"
+            "description": "CrIS SW 2 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1362,
             "sensor": "cris",
-            "description": "CrIS SW 3 deep space"
+            "description": "CrIS SW 3 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1364,
             "sensor": "cris",
-            "description": "CrIS SW 5 deep space"
+            "description": "CrIS SW 5 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1365,
             "sensor": "cris",
-            "description": "CrIS SW 6 deep space"
+            "description": "CrIS SW 6 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1366,
             "sensor": "cris",
-            "description": "CrIS SW 7 deep space"
+            "description": "CrIS SW 7 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1367,
             "sensor": "cris",
-            "description": "CrIS SW 8 deep space"
+            "description": "CrIS SW 8 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1368,
             "sensor": "cris",
-            "description": "CrIS SW 9 deep space"
+            "description": "CrIS SW 9 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1369,
             "sensor": "cris",
-            "description": "CrIS LW 1 internal cal"
+            "description": "CrIS LW 1 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1370,
             "sensor": "cris",
-            "description": "CrIS LW 2 internal cal"
+            "description": "CrIS LW 2 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1371,
             "sensor": "cris",
-            "description": "CrIS LW 3 internal cal"
+            "description": "CrIS LW 3 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1373,
             "sensor": "cris",
-            "description": "CrIS LW 5 internal cal"
+            "description": "CrIS LW 5 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1374,
             "sensor": "cris",
-            "description": "CrIS LW 6 internal cal"
+            "description": "CrIS LW 6 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1375,
             "sensor": "cris",
-            "description": "CrIS LW 7 internal cal"
+            "description": "CrIS LW 7 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1376,
             "sensor": "cris",
-            "description": "CrIS LW 8 internal cal"
+            "description": "CrIS LW 8 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1377,
             "sensor": "cris",
-            "description": "CrIS LW 9 internal cal"
+            "description": "CrIS LW 9 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1378,
             "sensor": "cris",
-            "description": "CrIS MW 1 internal cal"
+            "description": "CrIS MW 1 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1379,
             "sensor": "cris",
-            "description": "CrIS MW 2 internal cal"
+            "description": "CrIS MW 2 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1380,
             "sensor": "cris",
-            "description": "CrIS MW 3 internal cal"
+            "description": "CrIS MW 3 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1382,
             "sensor": "cris",
-            "description": "CrIS MW 5 internal cal"
+            "description": "CrIS MW 5 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1383,
             "sensor": "cris",
-            "description": "CrIS MW 6 internal cal"
+            "description": "CrIS MW 6 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1384,
             "sensor": "cris",
-            "description": "CrIS MW 7 internal cal"
+            "description": "CrIS MW 7 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1385,
             "sensor": "cris",
-            "description": "CrIS MW 8 internal cal"
+            "description": "CrIS MW 8 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1386,
             "sensor": "cris",
-            "description": "CrIS MW 9 internal cal"
+            "description": "CrIS MW 9 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1387,
             "sensor": "cris",
-            "description": "CrIS SW 1 internal cal"
+            "description": "CrIS SW 1 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1388,
             "sensor": "cris",
-            "description": "CrIS SW 2 internal cal"
+            "description": "CrIS SW 2 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1389,
             "sensor": "cris",
-            "description": "CrIS SW 3 internal cal"
+            "description": "CrIS SW 3 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1391,
             "sensor": "cris",
-            "description": "CrIS SW 5 internal cal"
+            "description": "CrIS SW 5 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1392,
             "sensor": "cris",
-            "description": "CrIS SW 6 internal cal"
+            "description": "CrIS SW 6 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1393,
             "sensor": "cris",
-            "description": "CrIS SW 7 internal cal"
+            "description": "CrIS SW 7 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1394,
             "sensor": "cris",
-            "description": "CrIS SW 8 internal cal"
+            "description": "CrIS SW 8 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1395,
             "sensor": "cris",
-            "description": "CrIS SW 9 internal cal"
+            "description": "CrIS SW 9 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           }
         ]
       },
@@ -3592,132 +4564,210 @@
           {
             "apid": 800,
             "sensor": "viirs",
-            "description": "VIIRS M04"
+            "description": "VIIRS M04",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 801,
             "sensor": "viirs",
-            "description": "VIIRS M05"
+            "description": "VIIRS M05",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 802,
             "sensor": "viirs",
-            "description": "VIIRS M03"
+            "description": "VIIRS M03",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 803,
             "sensor": "viirs",
-            "description": "VIIRS M02"
+            "description": "VIIRS M02",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 804,
             "sensor": "viirs",
-            "description": "VIIRS M01"
+            "description": "VIIRS M01",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 805,
             "sensor": "viirs",
-            "description": "VIIRS M06"
+            "description": "VIIRS M06",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 807,
             "sensor": "viirs",
-            "description": "VIIRS M09"
+            "description": "VIIRS M09",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 808,
             "sensor": "viirs",
-            "description": "VIIRS M10"
+            "description": "VIIRS M10",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 809,
             "sensor": "viirs",
-            "description": "VIIRS M08"
+            "description": "VIIRS M08",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 810,
             "sensor": "viirs",
-            "description": "VIIRS M11"
+            "description": "VIIRS M11",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 811,
             "sensor": "viirs",
-            "description": "VIIRS M13"
+            "description": "VIIRS M13",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 812,
             "sensor": "viirs",
-            "description": "VIIRS M12"
+            "description": "VIIRS M12",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 813,
             "sensor": "viirs",
-            "description": "VIIRS I04"
+            "description": "VIIRS I04",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 814,
             "sensor": "viirs",
-            "description": "VIIRS M16"
+            "description": "VIIRS M16",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 815,
             "sensor": "viirs",
-            "description": "VIIRS M15"
+            "description": "VIIRS M15",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 816,
             "sensor": "viirs",
-            "description": "VIIRS M14"
+            "description": "VIIRS M14",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 817,
             "sensor": "viirs",
-            "description": "VIIRS I05"
+            "description": "VIIRS I05",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 818,
             "sensor": "viirs",
-            "description": "VIIRS I01"
+            "description": "VIIRS I01",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 819,
             "sensor": "viirs",
-            "description": "VIIRS I02"
+            "description": "VIIRS I02",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 820,
             "sensor": "viirs",
-            "description": "VIIRS I03"
+            "description": "VIIRS I03",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 821,
             "sensor": "viirs",
-            "description": "VIIRS DNB"
+            "description": "VIIRS DNB",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 822,
             "sensor": "viirs",
-            "description": "VIIRS DNB MSG"
+            "description": "VIIRS DNB MSG",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 823,
             "sensor": "viirs",
-            "description": "VIIRS DNB LGS"
+            "description": "VIIRS DNB LGS",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 825,
             "sensor": "viirs",
-            "description": "VIIRS cal"
+            "description": "VIIRS cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 826,
             "sensor": "viirs",
-            "description": "VIIRS engr"
+            "description": "VIIRS engr",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 824,
             "sensor": "viirs",
-            "description": "VIIRS Test"
+            "description": "VIIRS Test",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           }
         ]
       },
@@ -3970,7 +5020,10 @@
           {
             "apid": 0,
             "sensor": "spacecraft",
-            "description": "Bus critical"
+            "description": "Bus critical",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1,
@@ -4010,7 +5063,10 @@
           {
             "apid": 8,
             "sensor": "spacecraft",
-            "description": "ADCS HSK Telemetry HR"
+            "description": "ADCS HSK Telemetry HR",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 9,
@@ -4025,7 +5081,10 @@
           {
             "apid": 11,
             "sensor": "spacecraft",
-            "description": "Ephemeris/attitude"
+            "description": "Ephemeris/attitude",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 12,
@@ -4120,7 +5179,10 @@
           {
             "apid": 30,
             "sensor": "spacecraft",
-            "description": "ACS 10hz SOH"
+            "description": "ACS 10hz SOH",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 31,
@@ -4140,7 +5202,10 @@
           {
             "apid": 34,
             "sensor": "spacecraft",
-            "description": "ACS 1hz SOH"
+            "description": "ACS 1hz SOH",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 35,
@@ -4155,7 +5220,10 @@
           {
             "apid": 37,
             "sensor": "spacecraft",
-            "description": "ACS 1hz SOH"
+            "description": "ACS 1hz SOH",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 38,
@@ -4326,22 +5394,34 @@
           {
             "apid": 515,
             "sensor": "atms",
-            "description": "ATMS cal"
+            "description": "ATMS cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 528,
             "sensor": "atms",
-            "description": "ATMS sci"
+            "description": "ATMS sci",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 530,
             "sensor": "atms",
-            "description": "ATMS engr hot cal"
+            "description": "ATMS engr hot cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 531,
             "sensor": "atms",
-            "description": "ATMS engr status"
+            "description": "ATMS engr status",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           }
         ]
       },
@@ -4368,372 +5448,594 @@
           {
             "apid": 1289,
             "sensor": "cris",
-            "description": "CrIS sci telemetry"
+            "description": "CrIS sci telemetry",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1290,
             "sensor": "cris",
-            "description": "CrIS engr telemetry"
+            "description": "CrIS engr telemetry",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1315,
             "sensor": "cris",
-            "description": "CrIS LW 1 earth scene"
+            "description": "CrIS LW 1 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1316,
             "sensor": "cris",
-            "description": "CrIS LW 2 earth scene"
+            "description": "CrIS LW 2 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1317,
             "sensor": "cris",
-            "description": "CrIS LW 3 earth scene"
+            "description": "CrIS LW 3 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1319,
             "sensor": "cris",
-            "description": "CrIS LW 5 earth scene"
+            "description": "CrIS LW 5 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1320,
             "sensor": "cris",
-            "description": "CrIS LW 6 earth scene"
+            "description": "CrIS LW 6 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1321,
             "sensor": "cris",
-            "description": "CrIS LW 7 earth scene"
+            "description": "CrIS LW 7 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1322,
             "sensor": "cris",
-            "description": "CrIS LW 8 earth scene"
+            "description": "CrIS LW 8 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1323,
             "sensor": "cris",
-            "description": "CrIS LW 9 earth scene"
+            "description": "CrIS LW 9 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1324,
             "sensor": "cris",
-            "description": "CrIS MW 1 earth scene"
+            "description": "CrIS MW 1 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1325,
             "sensor": "cris",
-            "description": "CrIS MW 2 earth scene"
+            "description": "CrIS MW 2 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1326,
             "sensor": "cris",
-            "description": "CrIS MW 3 earth scene"
+            "description": "CrIS MW 3 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1328,
             "sensor": "cris",
-            "description": "CrIS MW 5 earth scene"
+            "description": "CrIS MW 5 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1329,
             "sensor": "cris",
-            "description": "CrIS MW 6 earth scene"
+            "description": "CrIS MW 6 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1330,
             "sensor": "cris",
-            "description": "CrIS MW 7 earth scene"
+            "description": "CrIS MW 7 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1331,
             "sensor": "cris",
-            "description": "CrIS MW 8 earth scene"
+            "description": "CrIS MW 8 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1332,
             "sensor": "cris",
-            "description": "CrIS MW 9 earth scene"
+            "description": "CrIS MW 9 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1333,
             "sensor": "cris",
-            "description": "CrIS SW 1 earth scene"
+            "description": "CrIS SW 1 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1334,
             "sensor": "cris",
-            "description": "CrIS SW 2 earth scene"
+            "description": "CrIS SW 2 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1335,
             "sensor": "cris",
-            "description": "CrIS SW 3 earth scene"
+            "description": "CrIS SW 3 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1337,
             "sensor": "cris",
-            "description": "CrIS SW 5 earth scene"
+            "description": "CrIS SW 5 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1338,
             "sensor": "cris",
-            "description": "CrIS SW 6 earth scene"
+            "description": "CrIS SW 6 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1339,
             "sensor": "cris",
-            "description": "CrIS SW 7 earth scene"
+            "description": "CrIS SW 7 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1340,
             "sensor": "cris",
-            "description": "CrIS SW 8 earth scene"
+            "description": "CrIS SW 8 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1341,
             "sensor": "cris",
-            "description": "CrIS SW 9 earth scene"
+            "description": "CrIS SW 9 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1342,
             "sensor": "cris",
-            "description": "CrIS LW 1 deep space"
+            "description": "CrIS LW 1 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1343,
             "sensor": "cris",
-            "description": "CrIS LW 2 deep space"
+            "description": "CrIS LW 2 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1344,
             "sensor": "cris",
-            "description": "CrIS LW 3 deep space"
+            "description": "CrIS LW 3 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1346,
             "sensor": "cris",
-            "description": "CrIS LW 5 deep space"
+            "description": "CrIS LW 5 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1347,
             "sensor": "cris",
-            "description": "CrIS LW 6 deep space"
+            "description": "CrIS LW 6 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1348,
             "sensor": "cris",
-            "description": "CrIS LW 7 deep space"
+            "description": "CrIS LW 7 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1349,
             "sensor": "cris",
-            "description": "CrIS LW 8 deep space"
+            "description": "CrIS LW 8 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1350,
             "sensor": "cris",
-            "description": "CrIS LW 9 deep space"
+            "description": "CrIS LW 9 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1351,
             "sensor": "cris",
-            "description": "CrIS MW 1 deep space"
+            "description": "CrIS MW 1 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1352,
             "sensor": "cris",
-            "description": "CrIS MW 2 deep space"
+            "description": "CrIS MW 2 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1353,
             "sensor": "cris",
-            "description": "CrIS MW 3 deep space"
+            "description": "CrIS MW 3 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1355,
             "sensor": "cris",
-            "description": "CrIS MW 5 deep space"
+            "description": "CrIS MW 5 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1356,
             "sensor": "cris",
-            "description": "CrIS MW 6 deep space"
+            "description": "CrIS MW 6 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1357,
             "sensor": "cris",
-            "description": "CrIS MW 7 deep space"
+            "description": "CrIS MW 7 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1358,
             "sensor": "cris",
-            "description": "CrIS MW 8 deep space"
+            "description": "CrIS MW 8 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1359,
             "sensor": "cris",
-            "description": "CrIS MW 9 deep space"
+            "description": "CrIS MW 9 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1360,
             "sensor": "cris",
-            "description": "CrIS SW 1 deep space"
+            "description": "CrIS SW 1 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1361,
             "sensor": "cris",
-            "description": "CrIS SW 2 deep space"
+            "description": "CrIS SW 2 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1362,
             "sensor": "cris",
-            "description": "CrIS SW 3 deep space"
+            "description": "CrIS SW 3 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1364,
             "sensor": "cris",
-            "description": "CrIS SW 5 deep space"
+            "description": "CrIS SW 5 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1365,
             "sensor": "cris",
-            "description": "CrIS SW 6 deep space"
+            "description": "CrIS SW 6 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1366,
             "sensor": "cris",
-            "description": "CrIS SW 7 deep space"
+            "description": "CrIS SW 7 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1367,
             "sensor": "cris",
-            "description": "CrIS SW 8 deep space"
+            "description": "CrIS SW 8 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1368,
             "sensor": "cris",
-            "description": "CrIS SW 9 deep space"
+            "description": "CrIS SW 9 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1369,
             "sensor": "cris",
-            "description": "CrIS LW 1 internal cal"
+            "description": "CrIS LW 1 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1370,
             "sensor": "cris",
-            "description": "CrIS LW 2 internal cal"
+            "description": "CrIS LW 2 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1371,
             "sensor": "cris",
-            "description": "CrIS LW 3 internal cal"
+            "description": "CrIS LW 3 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1373,
             "sensor": "cris",
-            "description": "CrIS LW 5 internal cal"
+            "description": "CrIS LW 5 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1374,
             "sensor": "cris",
-            "description": "CrIS LW 6 internal cal"
+            "description": "CrIS LW 6 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1375,
             "sensor": "cris",
-            "description": "CrIS LW 7 internal cal"
+            "description": "CrIS LW 7 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1376,
             "sensor": "cris",
-            "description": "CrIS LW 8 internal cal"
+            "description": "CrIS LW 8 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1377,
             "sensor": "cris",
-            "description": "CrIS LW 9 internal cal"
+            "description": "CrIS LW 9 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1378,
             "sensor": "cris",
-            "description": "CrIS MW 1 internal cal"
+            "description": "CrIS MW 1 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1379,
             "sensor": "cris",
-            "description": "CrIS MW 2 internal cal"
+            "description": "CrIS MW 2 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1380,
             "sensor": "cris",
-            "description": "CrIS MW 3 internal cal"
+            "description": "CrIS MW 3 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1382,
             "sensor": "cris",
-            "description": "CrIS MW 5 internal cal"
+            "description": "CrIS MW 5 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1383,
             "sensor": "cris",
-            "description": "CrIS MW 6 internal cal"
+            "description": "CrIS MW 6 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1384,
             "sensor": "cris",
-            "description": "CrIS MW 7 internal cal"
+            "description": "CrIS MW 7 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1385,
             "sensor": "cris",
-            "description": "CrIS MW 8 internal cal"
+            "description": "CrIS MW 8 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1386,
             "sensor": "cris",
-            "description": "CrIS MW 9 internal cal"
+            "description": "CrIS MW 9 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1387,
             "sensor": "cris",
-            "description": "CrIS SW 1 internal cal"
+            "description": "CrIS SW 1 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1388,
             "sensor": "cris",
-            "description": "CrIS SW 2 internal cal"
+            "description": "CrIS SW 2 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1389,
             "sensor": "cris",
-            "description": "CrIS SW 3 internal cal"
+            "description": "CrIS SW 3 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1391,
             "sensor": "cris",
-            "description": "CrIS SW 5 internal cal"
+            "description": "CrIS SW 5 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1392,
             "sensor": "cris",
-            "description": "CrIS SW 6 internal cal"
+            "description": "CrIS SW 6 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1393,
             "sensor": "cris",
-            "description": "CrIS SW 7 internal cal"
+            "description": "CrIS SW 7 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1394,
             "sensor": "cris",
-            "description": "CrIS SW 8 internal cal"
+            "description": "CrIS SW 8 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1395,
             "sensor": "cris",
-            "description": "CrIS SW 9 internal cal"
+            "description": "CrIS SW 9 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           }
         ]
       },
@@ -4863,132 +6165,210 @@
           {
             "apid": 800,
             "sensor": "viirs",
-            "description": "VIIRS M04"
+            "description": "VIIRS M04",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 801,
             "sensor": "viirs",
-            "description": "VIIRS M05"
+            "description": "VIIRS M05",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 802,
             "sensor": "viirs",
-            "description": "VIIRS M03"
+            "description": "VIIRS M03",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 803,
             "sensor": "viirs",
-            "description": "VIIRS M02"
+            "description": "VIIRS M02",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 804,
             "sensor": "viirs",
-            "description": "VIIRS M01"
+            "description": "VIIRS M01",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 805,
             "sensor": "viirs",
-            "description": "VIIRS M06"
+            "description": "VIIRS M06",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 807,
             "sensor": "viirs",
-            "description": "VIIRS M09"
+            "description": "VIIRS M09",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 808,
             "sensor": "viirs",
-            "description": "VIIRS M10"
+            "description": "VIIRS M10",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 809,
             "sensor": "viirs",
-            "description": "VIIRS M08"
+            "description": "VIIRS M08",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 810,
             "sensor": "viirs",
-            "description": "VIIRS M11"
+            "description": "VIIRS M11",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 811,
             "sensor": "viirs",
-            "description": "VIIRS M13"
+            "description": "VIIRS M13",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 812,
             "sensor": "viirs",
-            "description": "VIIRS M12"
+            "description": "VIIRS M12",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 813,
             "sensor": "viirs",
-            "description": "VIIRS I04"
+            "description": "VIIRS I04",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 814,
             "sensor": "viirs",
-            "description": "VIIRS M16"
+            "description": "VIIRS M16",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 815,
             "sensor": "viirs",
-            "description": "VIIRS M15"
+            "description": "VIIRS M15",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 816,
             "sensor": "viirs",
-            "description": "VIIRS M14"
+            "description": "VIIRS M14",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 817,
             "sensor": "viirs",
-            "description": "VIIRS I05"
+            "description": "VIIRS I05",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 818,
             "sensor": "viirs",
-            "description": "VIIRS I01"
+            "description": "VIIRS I01",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 819,
             "sensor": "viirs",
-            "description": "VIIRS I02"
+            "description": "VIIRS I02",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 820,
             "sensor": "viirs",
-            "description": "VIIRS I03"
+            "description": "VIIRS I03",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 821,
             "sensor": "viirs",
-            "description": "VIIRS DNB"
+            "description": "VIIRS DNB",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 822,
             "sensor": "viirs",
-            "description": "VIIRS DNB MSG"
+            "description": "VIIRS DNB MSG",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 823,
             "sensor": "viirs",
-            "description": "VIIRS DNB LGS"
+            "description": "VIIRS DNB LGS",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 825,
             "sensor": "viirs",
-            "description": "VIIRS cal"
+            "description": "VIIRS cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 826,
             "sensor": "viirs",
-            "description": "VIIRS engr"
+            "description": "VIIRS engr",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 824,
             "sensor": "viirs",
-            "description": "VIIRS Test"
+            "description": "VIIRS Test",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           }
         ]
       },
@@ -5241,7 +6621,10 @@
           {
             "apid": 0,
             "sensor": "spacecraft",
-            "description": "Bus critical"
+            "description": "Bus critical",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1,
@@ -5281,7 +6664,10 @@
           {
             "apid": 8,
             "sensor": "spacecraft",
-            "description": "ADCS HSK Telemetry HR"
+            "description": "ADCS HSK Telemetry HR",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 9,
@@ -5296,7 +6682,10 @@
           {
             "apid": 11,
             "sensor": "spacecraft",
-            "description": "Ephemeris/attitude"
+            "description": "Ephemeris/attitude",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 12,
@@ -5391,7 +6780,10 @@
           {
             "apid": 30,
             "sensor": "spacecraft",
-            "description": "ACS 10hz SOH"
+            "description": "ACS 10hz SOH",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 31,
@@ -5411,7 +6803,10 @@
           {
             "apid": 34,
             "sensor": "spacecraft",
-            "description": "ACS 1hz SOH"
+            "description": "ACS 1hz SOH",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 35,
@@ -5426,7 +6821,10 @@
           {
             "apid": 37,
             "sensor": "spacecraft",
-            "description": "ACS 1hz SOH"
+            "description": "ACS 1hz SOH",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 38,
@@ -5597,22 +6995,34 @@
           {
             "apid": 515,
             "sensor": "atms",
-            "description": "ATMS cal"
+            "description": "ATMS cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 528,
             "sensor": "atms",
-            "description": "ATMS sci"
+            "description": "ATMS sci",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 530,
             "sensor": "atms",
-            "description": "ATMS engr hot cal"
+            "description": "ATMS engr hot cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 531,
             "sensor": "atms",
-            "description": "ATMS engr status"
+            "description": "ATMS engr status",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           }
         ]
       },
@@ -5639,372 +7049,594 @@
           {
             "apid": 1289,
             "sensor": "cris",
-            "description": "CrIS sci telemetry"
+            "description": "CrIS sci telemetry",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1290,
             "sensor": "cris",
-            "description": "CrIS engr telemetry"
+            "description": "CrIS engr telemetry",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1315,
             "sensor": "cris",
-            "description": "CrIS LW 1 earth scene"
+            "description": "CrIS LW 1 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1316,
             "sensor": "cris",
-            "description": "CrIS LW 2 earth scene"
+            "description": "CrIS LW 2 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1317,
             "sensor": "cris",
-            "description": "CrIS LW 3 earth scene"
+            "description": "CrIS LW 3 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1319,
             "sensor": "cris",
-            "description": "CrIS LW 5 earth scene"
+            "description": "CrIS LW 5 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1320,
             "sensor": "cris",
-            "description": "CrIS LW 6 earth scene"
+            "description": "CrIS LW 6 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1321,
             "sensor": "cris",
-            "description": "CrIS LW 7 earth scene"
+            "description": "CrIS LW 7 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1322,
             "sensor": "cris",
-            "description": "CrIS LW 8 earth scene"
+            "description": "CrIS LW 8 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1323,
             "sensor": "cris",
-            "description": "CrIS LW 9 earth scene"
+            "description": "CrIS LW 9 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1324,
             "sensor": "cris",
-            "description": "CrIS MW 1 earth scene"
+            "description": "CrIS MW 1 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1325,
             "sensor": "cris",
-            "description": "CrIS MW 2 earth scene"
+            "description": "CrIS MW 2 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1326,
             "sensor": "cris",
-            "description": "CrIS MW 3 earth scene"
+            "description": "CrIS MW 3 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1328,
             "sensor": "cris",
-            "description": "CrIS MW 5 earth scene"
+            "description": "CrIS MW 5 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1329,
             "sensor": "cris",
-            "description": "CrIS MW 6 earth scene"
+            "description": "CrIS MW 6 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1330,
             "sensor": "cris",
-            "description": "CrIS MW 7 earth scene"
+            "description": "CrIS MW 7 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1331,
             "sensor": "cris",
-            "description": "CrIS MW 8 earth scene"
+            "description": "CrIS MW 8 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1332,
             "sensor": "cris",
-            "description": "CrIS MW 9 earth scene"
+            "description": "CrIS MW 9 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1333,
             "sensor": "cris",
-            "description": "CrIS SW 1 earth scene"
+            "description": "CrIS SW 1 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1334,
             "sensor": "cris",
-            "description": "CrIS SW 2 earth scene"
+            "description": "CrIS SW 2 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1335,
             "sensor": "cris",
-            "description": "CrIS SW 3 earth scene"
+            "description": "CrIS SW 3 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1337,
             "sensor": "cris",
-            "description": "CrIS SW 5 earth scene"
+            "description": "CrIS SW 5 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1338,
             "sensor": "cris",
-            "description": "CrIS SW 6 earth scene"
+            "description": "CrIS SW 6 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1339,
             "sensor": "cris",
-            "description": "CrIS SW 7 earth scene"
+            "description": "CrIS SW 7 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1340,
             "sensor": "cris",
-            "description": "CrIS SW 8 earth scene"
+            "description": "CrIS SW 8 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1341,
             "sensor": "cris",
-            "description": "CrIS SW 9 earth scene"
+            "description": "CrIS SW 9 earth scene",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1342,
             "sensor": "cris",
-            "description": "CrIS LW 1 deep space"
+            "description": "CrIS LW 1 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1343,
             "sensor": "cris",
-            "description": "CrIS LW 2 deep space"
+            "description": "CrIS LW 2 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1344,
             "sensor": "cris",
-            "description": "CrIS LW 3 deep space"
+            "description": "CrIS LW 3 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1346,
             "sensor": "cris",
-            "description": "CrIS LW 5 deep space"
+            "description": "CrIS LW 5 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1347,
             "sensor": "cris",
-            "description": "CrIS LW 6 deep space"
+            "description": "CrIS LW 6 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1348,
             "sensor": "cris",
-            "description": "CrIS LW 7 deep space"
+            "description": "CrIS LW 7 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1349,
             "sensor": "cris",
-            "description": "CrIS LW 8 deep space"
+            "description": "CrIS LW 8 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1350,
             "sensor": "cris",
-            "description": "CrIS LW 9 deep space"
+            "description": "CrIS LW 9 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1351,
             "sensor": "cris",
-            "description": "CrIS MW 1 deep space"
+            "description": "CrIS MW 1 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1352,
             "sensor": "cris",
-            "description": "CrIS MW 2 deep space"
+            "description": "CrIS MW 2 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1353,
             "sensor": "cris",
-            "description": "CrIS MW 3 deep space"
+            "description": "CrIS MW 3 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1355,
             "sensor": "cris",
-            "description": "CrIS MW 5 deep space"
+            "description": "CrIS MW 5 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1356,
             "sensor": "cris",
-            "description": "CrIS MW 6 deep space"
+            "description": "CrIS MW 6 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1357,
             "sensor": "cris",
-            "description": "CrIS MW 7 deep space"
+            "description": "CrIS MW 7 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1358,
             "sensor": "cris",
-            "description": "CrIS MW 8 deep space"
+            "description": "CrIS MW 8 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1359,
             "sensor": "cris",
-            "description": "CrIS MW 9 deep space"
+            "description": "CrIS MW 9 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1360,
             "sensor": "cris",
-            "description": "CrIS SW 1 deep space"
+            "description": "CrIS SW 1 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1361,
             "sensor": "cris",
-            "description": "CrIS SW 2 deep space"
+            "description": "CrIS SW 2 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1362,
             "sensor": "cris",
-            "description": "CrIS SW 3 deep space"
+            "description": "CrIS SW 3 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1364,
             "sensor": "cris",
-            "description": "CrIS SW 5 deep space"
+            "description": "CrIS SW 5 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1365,
             "sensor": "cris",
-            "description": "CrIS SW 6 deep space"
+            "description": "CrIS SW 6 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1366,
             "sensor": "cris",
-            "description": "CrIS SW 7 deep space"
+            "description": "CrIS SW 7 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1367,
             "sensor": "cris",
-            "description": "CrIS SW 8 deep space"
+            "description": "CrIS SW 8 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1368,
             "sensor": "cris",
-            "description": "CrIS SW 9 deep space"
+            "description": "CrIS SW 9 deep space",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1369,
             "sensor": "cris",
-            "description": "CrIS LW 1 internal cal"
+            "description": "CrIS LW 1 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1370,
             "sensor": "cris",
-            "description": "CrIS LW 2 internal cal"
+            "description": "CrIS LW 2 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1371,
             "sensor": "cris",
-            "description": "CrIS LW 3 internal cal"
+            "description": "CrIS LW 3 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1373,
             "sensor": "cris",
-            "description": "CrIS LW 5 internal cal"
+            "description": "CrIS LW 5 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1374,
             "sensor": "cris",
-            "description": "CrIS LW 6 internal cal"
+            "description": "CrIS LW 6 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1375,
             "sensor": "cris",
-            "description": "CrIS LW 7 internal cal"
+            "description": "CrIS LW 7 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1376,
             "sensor": "cris",
-            "description": "CrIS LW 8 internal cal"
+            "description": "CrIS LW 8 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1377,
             "sensor": "cris",
-            "description": "CrIS LW 9 internal cal"
+            "description": "CrIS LW 9 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1378,
             "sensor": "cris",
-            "description": "CrIS MW 1 internal cal"
+            "description": "CrIS MW 1 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1379,
             "sensor": "cris",
-            "description": "CrIS MW 2 internal cal"
+            "description": "CrIS MW 2 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1380,
             "sensor": "cris",
-            "description": "CrIS MW 3 internal cal"
+            "description": "CrIS MW 3 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1382,
             "sensor": "cris",
-            "description": "CrIS MW 5 internal cal"
+            "description": "CrIS MW 5 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1383,
             "sensor": "cris",
-            "description": "CrIS MW 6 internal cal"
+            "description": "CrIS MW 6 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1384,
             "sensor": "cris",
-            "description": "CrIS MW 7 internal cal"
+            "description": "CrIS MW 7 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1385,
             "sensor": "cris",
-            "description": "CrIS MW 8 internal cal"
+            "description": "CrIS MW 8 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1386,
             "sensor": "cris",
-            "description": "CrIS MW 9 internal cal"
+            "description": "CrIS MW 9 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1387,
             "sensor": "cris",
-            "description": "CrIS SW 1 internal cal"
+            "description": "CrIS SW 1 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1388,
             "sensor": "cris",
-            "description": "CrIS SW 2 internal cal"
+            "description": "CrIS SW 2 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1389,
             "sensor": "cris",
-            "description": "CrIS SW 3 internal cal"
+            "description": "CrIS SW 3 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1391,
             "sensor": "cris",
-            "description": "CrIS SW 5 internal cal"
+            "description": "CrIS SW 5 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1392,
             "sensor": "cris",
-            "description": "CrIS SW 6 internal cal"
+            "description": "CrIS SW 6 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1393,
             "sensor": "cris",
-            "description": "CrIS SW 7 internal cal"
+            "description": "CrIS SW 7 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1394,
             "sensor": "cris",
-            "description": "CrIS SW 8 internal cal"
+            "description": "CrIS SW 8 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 1395,
             "sensor": "cris",
-            "description": "CrIS SW 9 internal cal"
+            "description": "CrIS SW 9 internal cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           }
         ]
       },
@@ -6134,132 +7766,210 @@
           {
             "apid": 800,
             "sensor": "viirs",
-            "description": "VIIRS M04"
+            "description": "VIIRS M04",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 801,
             "sensor": "viirs",
-            "description": "VIIRS M05"
+            "description": "VIIRS M05",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 802,
             "sensor": "viirs",
-            "description": "VIIRS M03"
+            "description": "VIIRS M03",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 803,
             "sensor": "viirs",
-            "description": "VIIRS M02"
+            "description": "VIIRS M02",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 804,
             "sensor": "viirs",
-            "description": "VIIRS M01"
+            "description": "VIIRS M01",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 805,
             "sensor": "viirs",
-            "description": "VIIRS M06"
+            "description": "VIIRS M06",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 807,
             "sensor": "viirs",
-            "description": "VIIRS M09"
+            "description": "VIIRS M09",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 808,
             "sensor": "viirs",
-            "description": "VIIRS M10"
+            "description": "VIIRS M10",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 809,
             "sensor": "viirs",
-            "description": "VIIRS M08"
+            "description": "VIIRS M08",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 810,
             "sensor": "viirs",
-            "description": "VIIRS M11"
+            "description": "VIIRS M11",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 811,
             "sensor": "viirs",
-            "description": "VIIRS M13"
+            "description": "VIIRS M13",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 812,
             "sensor": "viirs",
-            "description": "VIIRS M12"
+            "description": "VIIRS M12",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 813,
             "sensor": "viirs",
-            "description": "VIIRS I04"
+            "description": "VIIRS I04",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 814,
             "sensor": "viirs",
-            "description": "VIIRS M16"
+            "description": "VIIRS M16",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 815,
             "sensor": "viirs",
-            "description": "VIIRS M15"
+            "description": "VIIRS M15",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 816,
             "sensor": "viirs",
-            "description": "VIIRS M14"
+            "description": "VIIRS M14",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 817,
             "sensor": "viirs",
-            "description": "VIIRS I05"
+            "description": "VIIRS I05",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 818,
             "sensor": "viirs",
-            "description": "VIIRS I01"
+            "description": "VIIRS I01",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 819,
             "sensor": "viirs",
-            "description": "VIIRS I02"
+            "description": "VIIRS I02",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 820,
             "sensor": "viirs",
-            "description": "VIIRS I03"
+            "description": "VIIRS I03",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 821,
             "sensor": "viirs",
-            "description": "VIIRS DNB"
+            "description": "VIIRS DNB",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 822,
             "sensor": "viirs",
-            "description": "VIIRS DNB MSG"
+            "description": "VIIRS DNB MSG",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 823,
             "sensor": "viirs",
-            "description": "VIIRS DNB LGS"
+            "description": "VIIRS DNB LGS",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 825,
             "sensor": "viirs",
-            "description": "VIIRS cal"
+            "description": "VIIRS cal",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 826,
             "sensor": "viirs",
-            "description": "VIIRS engr"
+            "description": "VIIRS engr",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           },
           {
             "apid": 824,
             "sensor": "viirs",
-            "description": "VIIRS Test"
+            "description": "VIIRS Test",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           }
         ]
       },
@@ -6542,7 +8252,11 @@
           {
             "apid": 957,
             "sensor": "spacecraft",
-            "description": "GBAD 1s"
+            "description": "GBAD 1s",
+            "timecodeFormat": {
+              "format": "cuc",
+              "offset": 16
+            }
           },
           {
             "apid": 958,
@@ -6673,7 +8387,10 @@
           {
             "apid": 64,
             "sensor": "modis",
-            "description": "MODIS sci engr"
+            "description": "MODIS sci engr",
+            "timecodeFormat": {
+              "format": "cds"
+            }
           }
         ]
       },

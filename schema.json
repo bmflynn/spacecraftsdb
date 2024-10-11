@@ -19,7 +19,7 @@
     },
     "spacecrafts": {
       "description": "Supported known spacecrafts",
-      "type": "array", 
+      "type": "array",
       "items": {
         "$ref": "#/$defs/spacecraft"
       }
@@ -41,14 +41,14 @@
         },
         "aliases": {
           "description": "Spacecraft alias names",
-          "type": "array", 
-          "items": {"type": "string"}
+          "type": "array",
+          "items": { "type": "string" }
         },
         "catalogNumber": {
           "description": "NORAD catalog number",
           "type": "integer"
         },
-        "framingConfig": {"$ref": "#/$defs/framingConfig"},
+        "framingConfig": { "$ref": "#/$defs/framingConfig" },
         "vcids": {
           "description": "List of available virtual channels",
           "type": "array",
@@ -85,7 +85,7 @@
         },
         "reedSolomon": {
           "description": "Reed-solomon forward-error correction config",
-          "type": "object", 
+          "type": "object",
           "properties": {
             "interleave": {
               "type": "integer",
@@ -104,7 +104,13 @@
           }
         }
       },
-      "required": ["length", "insertZoneLength", "trailerLength", "pseudoNoise", "reedSolomon"]
+      "required": [
+        "length",
+        "insertZoneLength",
+        "trailerLength",
+        "pseudoNoise",
+        "reedSolomon"
+      ]
     },
     "virtualChannel": {
       "description": "Spacecraft virtual channel",
@@ -114,7 +120,7 @@
           "description": "Virtual channel id",
           "type": "integer"
         },
-        "description": {"type": "string"},
+        "description": { "type": "string" },
         "apids": {
           "description": "Application identifiers",
           "type": "array",
@@ -130,13 +136,84 @@
                 "description": "Sensor this APID is for, if any",
                 "type": "string"
               },
-              "description": {"type": "string"}
+              "description": { "type": "string" },
+              "timecodeFormat": {
+                "description": "APID specific timecode format",
+                "$ref": "#/$defs/timecode"
+              }
             },
             "required": ["apid"]
           }
         }
       },
+      "timecodeFormat": {
+        "description": "Timecode format that applies to all APIDs that don't otherwise specify their own timecodeFormat",
+        "$ref": "#/$defs/timecode"
+      },
       "required": ["vcid", "apids"]
+    },
+    "timecode": {
+      "description": "Timecode configuration",
+      "type": "object",
+      "properties": {
+        "epoch": {
+          "description": "Epoch time for timestamp calculations. Defaults to Jan 1, 1958",
+          "type": "string",
+          "format": "date-time"
+        },
+        "offset": {
+          "type": "integer",
+          "description": "offset to the first byte in the timecode starting at the userdata field",
+          "minimum": 0,
+          "maximum": 65529,
+          "default": 0
+        }
+      },
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "format": {
+              "const": "cds"
+            },
+            "daylen": {
+              "type": "integer",
+              "enum": [2, 3],
+              "description": "Number of bytes for the day field",
+              "default": 2
+            },
+            "reslen": {
+              "type": "integer",
+              "enum": [0, 2, 4],
+              "description": "Number of bytes for the submillisecond resolution field",
+              "default": 2
+            }
+          },
+          "required": ["format"]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "format": {
+              "const": "cuc"
+            },
+            "finelen": {
+              "type": "integer",
+              "enum": [2, 3, 4],
+              "description": "Number of bytes for the fine time component",
+              "default": 2
+            },
+            "coarselen": {
+              "type": "integer",
+              "enum": [2, 3, 4],
+              "description": "Number of bytes for the coarse time component",
+              "default": 4
+            }
+          },
+          "required": ["format"]
+        }
+      ],
+      "required": ["format"]
     }
   }
 }
