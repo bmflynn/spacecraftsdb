@@ -41,7 +41,8 @@
           "type": "string",
           "format": "uri"
         }
-      }
+      },
+      "required": ["href"]
     },
     "spacecraft": {
       "description": "Spacecraft data",
@@ -164,10 +165,6 @@
             "required": ["apid"]
           }
         }
-      },
-      "timecodeFormat": {
-        "description": "Timecode format that applies to all APIDs that don't otherwise specify their own timecodeFormat",
-        "$ref": "#/$defs/timecode"
       },
       "required": ["vcid", "apids"]
     },
