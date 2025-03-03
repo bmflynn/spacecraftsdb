@@ -10808,16 +10808,15 @@
     "aliases": [],
     "catalogNumber": 41866,
     "framingConfig": {
-      "length": 2040,
+      "length": 2044,
       "insertZoneLength": 0,
       "trailerLength": 2,
-      "pseudoNoise": {},
-      "reedSolomon": {
-        "interleave": 0,
-        "virtualFillLength": 0,
-        "numCorrectable": 0
-      }
+      "pseudoNoise": null,
+      "reedSolomon": null
     },
+    "links": [
+      {"type": "documentation", "href": "https://www.ospo.noaa.gov/Organization/Documents/PUG/GS%20Series%20416-R-PUG-GRB-0348%20Vol%204%20Rev%202.3.pdf"}
+    ],
     "vcids": [
       {
         "vcid": 5,
@@ -15049,16 +15048,15 @@
     "aliases": [],
     "catalogNumber": 43226,
     "framingConfig": {
-      "length": 2040,
+      "length": 2044,
       "insertZoneLength": 0,
       "trailerLength": 2,
-      "pseudoNoise": {},
-      "reedSolomon": {
-        "interleave": 0,
-        "virtualFillLength": 0,
-        "numCorrectable": 0
-      }
+      "pseudoNoise": null,
+      "reedSolomon": null
     },
+    "links": [
+      {"type": "documentation", "href": "https://www.ospo.noaa.gov/Organization/Documents/PUG/GS%20Series%20416-R-PUG-GRB-0348%20Vol%204%20Rev%202.3.pdf"}
+    ],
     "vcids": [
       {
         "vcid": 5,
