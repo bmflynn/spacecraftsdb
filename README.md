@@ -2,13 +2,17 @@
 Spacecraft metadata and configuration database in JSON format.
 
 ## Schema
-* [JSON](./schema.json)
-* [Markdown](./schema.md)
-    - Generated using [jsonschema2md](https://github.com/sbrunner/jsonschema2md) for readability
+* [Database](./schemas/db.json)
+* [Input Data](./schemas/input.json)
 
 Verify the document:
 ```
 pipx install check-jsonschema
-check-jsonschema --schemafile schema.json spacecraftsdb.json
+check-jsonschema --schemafile schemas/db.json spacecraftsdb.json
 ```
 
+Verify the document input
+```
+pipx install check-jsonschema
+check-jsonschema --base-uri="" --schemafile schemas/input.json spacecrafts.data.json
+```

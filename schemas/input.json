@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dbrtn.net/schemas/spacecraft-database.schema.json",
+  "title": "Database of spacecraft static metadata",
+  "description": "Spacecrafts database schema",
+  "type": "array",
+  "items": {
+    "$ref": "schemas/db.json#/$defs/spacecraft"
+  }
+}

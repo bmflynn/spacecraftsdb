@@ -31,4 +31,10 @@ for sc in [s for s in spacecrafts if s["scid"] in [154]]:
             if apid["apid"] in [957]:
                 apid["timecodeFormat"] = {"epoch": "1958-01-01T00:00:00Z", "format": "cuc", "offset": 2, "numCoarse": 2, "numFine": 4, "fineMult": 15200.0}
 
+# metop-b/c
+# for sc in [s for s in spacecrafts if s["scid"] in (11, 13)]:
+#     for vcid in sc["vcids"]:
+#         for apid in vcid["apids"]:
+#             apid["timecodeFormat"] = {"epoch": "2000-01-01T00:00:00Z", "format": "cds", "offset": 0, "numDay": 2, "numSubmillis": 2}
+
 json.dump(spacecrafts, sys.stdout, indent=2)
