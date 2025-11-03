@@ -1,0 +1,61 @@
+{
+  "scid": 135,
+  "name": "gcomw1",
+  "aliases": [],
+  "catalogNumber": 38337,
+  "framingConfig": {
+    "length": 1100,
+    "insertZoneLength": 0,
+    "trailerLength": 0,
+    "pseudoNoise": {},
+    "reedSolomon": {
+      "interleave": 5,
+      "virtualFillLength": 15,
+      "numCorrectable": 16
+    }
+  },
+  "vcids": [
+    {
+      "vcid": 17,
+      "description": "AMRSR2 mission data",
+      "apids": [
+        {
+          "apid": 1576,
+          "sensor": "amsr2",
+          "description": "AMSR3 mission data"
+        }
+      ]
+    },
+    {
+      "vcid": 16,
+      "description": "Telemetry",
+      "apids": [
+        {
+          "apid": 253,
+          "sensor": "supplement",
+          "description": ""
+        },
+        {
+          "apid": 1551,
+          "sensor": "gpsr",
+          "description": "GPSR"
+        },
+        {
+          "apid": 1281,
+          "sensor": "spacecraft",
+          "description": "Telemetry"
+        },
+        {
+          "apid": 1549,
+          "sensor": "spacecraft",
+          "description": "Telemetry"
+        },
+        {
+          "apid": 1550,
+          "sensor": "spacecraft",
+          "description": "Telemetry"
+        }
+      ]
+    }
+  ]
+}

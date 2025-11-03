@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Use compressed format for release db
 - Remove `pseudoNoise` and `reedSolomon` from required framing config list
 - Remove bad `pseudoNoies` and `reedSolomon` from GOES-16/17
+- Use separate JSON files for build input
 
 
 ## [v0.2.1] - 2025-03-03

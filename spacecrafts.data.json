@@ -19294,9 +19294,9 @@
   },
   {
     "scid": 11,
-    "name": "metopb",
+    "name": "metop-b",
     "aliases": [
-      "metop-b"
+      "metopb"
     ],
     "catalogNumber": 38771,
     "framingConfig": {
@@ -20424,9 +20424,9 @@
   },
   {
     "scid": 13,
-    "name": "metopc",
+    "name": "metop-c",
     "aliases": [
-      "metop-c"
+      "metopc"
     ],
     "catalogNumber": 43689,
     "framingConfig": {
@@ -21554,9 +21554,9 @@
   },
   {
     "scid": 3,
-    "name": "metopsga1",
+    "name": "metop-sga1",
     "aliases": [
-      "metop-sga1"
+      "metopsga1"
     ],
     "catalogNumber": 0,
     "framingConfig": {
@@ -24182,9 +24182,9 @@
   },
   {
     "scid": 27,
-    "name": "metopsga2",
+    "name": "metop-sga2",
     "aliases": [
-      "metop-sga2"
+      "metopsga2"
     ],
     "catalogNumber": 0,
     "framingConfig": {
@@ -26810,9 +26810,9 @@
   },
   {
     "scid": 48,
-    "name": "metopsga3",
+    "name": "metop-sga3",
     "aliases": [
-      "metop-sga3"
+      "metopsga3"
     ],
     "catalogNumber": 0,
     "framingConfig": {
@@ -29438,9 +29438,9 @@
   },
   {
     "scid": 66,
-    "name": "metopsgb1",
+    "name": "metop-sgb1",
     "aliases": [
-      "metop-sgb1"
+      "metopsgb1"
     ],
     "catalogNumber": 0,
     "framingConfig": {
@@ -31910,9 +31910,9 @@
   },
   {
     "scid": 70,
-    "name": "metopsgb2",
+    "name": "metop-sgb2",
     "aliases": [
-      "metop-sgb2"
+      "metopsgb2"
     ],
     "catalogNumber": 0,
     "framingConfig": {
@@ -34382,9 +34382,9 @@
   },
   {
     "scid": 71,
-    "name": "metopsgb3",
+    "name": "metop-sgb3",
     "aliases": [
-      "metop-sgb3"
+      "metopsgb3"
     ],
     "catalogNumber": 0,
     "framingConfig": {

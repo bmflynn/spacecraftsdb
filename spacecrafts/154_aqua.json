@@ -1,0 +1,233 @@
+{
+  "scid": 154,
+  "name": "aqua",
+  "aliases": [],
+  "catalogNumber": 27424,
+  "framingConfig": {
+    "length": 892,
+    "insertZoneLength": 0,
+    "trailerLength": 0,
+    "pseudoNoise": {},
+    "reedSolomon": {
+      "interleave": 4,
+      "virtualFillLength": 0,
+      "numCorrectable": 16
+    }
+  },
+  "vcids": [
+    {
+      "vcid": 3,
+      "description": "Spacecraft",
+      "apids": [
+        {
+          "apid": 957,
+          "sensor": "spacecraft",
+          "description": "GBAD 1s",
+          "timecodeFormat": {
+            "epoch": "1958-01-01T00:00:00Z",
+            "format": "cuc",
+            "offset": 2,
+            "numCoarse": 2,
+            "numFine": 4,
+            "fineMult": 15200.0
+          }
+        },
+        {
+          "apid": 958,
+          "sensor": "spacecraft",
+          "description": "GBAD 4s"
+        },
+        {
+          "apid": 959,
+          "sensor": "spacecraft",
+          "description": "GBAD 8s"
+        }
+      ]
+    },
+    {
+      "vcid": 5,
+      "description": "Spacecraft",
+      "apids": [
+        {
+          "apid": 114,
+          "sensor": "modis",
+          "description": "MODIS low rate hk"
+        }
+      ]
+    },
+    {
+      "vcid": 10,
+      "description": "CERES +Y aft",
+      "apids": [
+        {
+          "apid": 141,
+          "sensor": "ceres",
+          "description": "CERES +Y aft"
+        },
+        {
+          "apid": 142,
+          "sensor": "ceres",
+          "description": "CERES +Y aft"
+        },
+        {
+          "apid": 143,
+          "sensor": "ceres",
+          "description": "CERES +Y aft"
+        },
+        {
+          "apid": 144,
+          "sensor": "ceres",
+          "description": "CERES +Y aft"
+        }
+      ]
+    },
+    {
+      "vcid": 15,
+      "description": "CERES -Y fore",
+      "apids": [
+        {
+          "apid": 157,
+          "sensor": "ceres",
+          "description": "CERES -Y fore"
+        },
+        {
+          "apid": 158,
+          "sensor": "ceres",
+          "description": "CERES -Y fore"
+        },
+        {
+          "apid": 159,
+          "sensor": "ceres",
+          "description": "CERES -Y fore"
+        },
+        {
+          "apid": 160,
+          "sensor": "ceres",
+          "description": "CERES -Y fore"
+        }
+      ]
+    },
+    {
+      "vcid": 20,
+      "description": "AMSU-A1",
+      "apids": [
+        {
+          "apid": 257,
+          "sensor": "amsu-a1",
+          "description": "AMSU-A1 no mode"
+        },
+        {
+          "apid": 259,
+          "sensor": "amsu-a1",
+          "description": "AMSU-A1 packet1 staring"
+        },
+        {
+          "apid": 260,
+          "sensor": "amsu-a1",
+          "description": "AMSU-A1 packet2 staring"
+        },
+        {
+          "apid": 262,
+          "sensor": "amsu-a1",
+          "description": "AMSU-A1 packet2 scan"
+        }
+      ]
+    },
+    {
+      "vcid": 25,
+      "description": "AMSU-A2",
+      "apids": [
+        {
+          "apid": 288,
+          "sensor": "amsu-a1",
+          "description": "AMSU-A2 no mode"
+        },
+        {
+          "apid": 289,
+          "sensor": "amsu-a2",
+          "description": "AMSU-A2 staring"
+        },
+        {
+          "apid": 290,
+          "sensor": "amsu-a2",
+          "description": "AMSU-A2 scan"
+        }
+      ]
+    },
+    {
+      "vcid": 30,
+      "description": "MODIS",
+      "apids": [
+        {
+          "apid": 64,
+          "sensor": "modis",
+          "description": "MODIS sci engr",
+          "timecodeFormat": {
+            "epoch": "1958-01-01T00:00:00Z",
+            "format": "cds",
+            "offset": 0,
+            "numDay": 2,
+            "numSubmillis": 2
+          }
+        }
+      ]
+    },
+    {
+      "vcid": 40,
+      "description": "AMSR-E",
+      "apids": [
+        {
+          "apid": 402,
+          "sensor": "amsr-e",
+          "description": "AMSR-E sci/engr"
+        }
+      ]
+    },
+    {
+      "vcid": 35,
+      "description": "AIRS",
+      "apids": [
+        {
+          "apid": 404,
+          "sensor": "airs",
+          "description": "AIRS sci"
+        },
+        {
+          "apid": 405,
+          "sensor": "airs",
+          "description": "AIRS cal space"
+        },
+        {
+          "apid": 406,
+          "sensor": "airs",
+          "description": "AIRS cal space"
+        },
+        {
+          "apid": 407,
+          "sensor": "airs",
+          "description": "AIRS cal rad"
+        },
+        {
+          "apid": 414,
+          "sensor": "airs",
+          "description": "AIRS engr 1"
+        },
+        {
+          "apid": 415,
+          "sensor": "airs",
+          "description": "AIRS engr 2"
+        },
+        {
+          "apid": 416,
+          "sensor": "airs",
+          "description": "AIRS flex engr 1"
+        },
+        {
+          "apid": 417,
+          "sensor": "airs",
+          "description": "AIRS flex engr 1"
+        }
+      ]
+    }
+  ]
+}

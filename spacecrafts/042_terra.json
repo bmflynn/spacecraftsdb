@@ -1,0 +1,30 @@
+{
+  "scid": 42,
+  "name": "terra",
+  "aliases": [],
+  "catalogNumber": 25944,
+  "framingConfig": {
+    "length": 892,
+    "insertZoneLength": 0,
+    "trailerLength": 0,
+    "pseudoNoise": {},
+    "reedSolomon": {
+      "interleave": 4,
+      "virtualFillLength": 0,
+      "numCorrectable": 16
+    }
+  },
+  "vcids": [
+    {
+      "vcid": 42,
+      "description": "",
+      "apids": [
+        {
+          "apid": 64,
+          "sensor": "modis",
+          "description": "MODIS sci engr"
+        }
+      ]
+    }
+  ]
+}

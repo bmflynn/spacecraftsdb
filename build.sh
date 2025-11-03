@@ -6,5 +6,5 @@ gitsha=$(git rev-parse HEAD)
 version=$(git describe --match '*.*.*' || true)
 generated=$(date -uIseconds)
 
-jq -c "{\"spacecrafts\": ., \"version\": \"${version}\", \"gitSha\": \"${gitsha}\", \"generated\":\"${generated}\"}" spacecrafts.data.json > ${database}
+jq -c -s "{\"spacecrafts\": ., \"version\": \"${version}\", \"gitSha\": \"${gitsha}\", \"generated\":\"${generated}\"}" spacecrafts/*.json > ${database}
 sha256sum ${database} > ${database}.sha256

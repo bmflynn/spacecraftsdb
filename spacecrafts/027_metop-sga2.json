@@ -1,0 +1,2628 @@
+{
+  "scid": 27,
+  "name": "metop-sga2",
+  "aliases": [
+    "metopsga2"
+  ],
+  "catalogNumber": 0,
+  "framingConfig": {
+    "length": 892,
+    "insertZoneLength": 0,
+    "trailerLength": 0,
+    "pseudoNoise": {},
+    "reedSolomon": {
+      "interleave": 4,
+      "virtualFillLength": 0,
+      "numCorrectable": 16
+    }
+  },
+  "vcids": [
+    {
+      "vcid": 8,
+      "description": "HK-TM",
+      "apids": [
+        {
+          "apid": 0,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 2,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 3,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 4,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 5,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 6,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 7,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 8,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 9,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 10,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 11,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 12,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 13,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 14,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 160,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 161,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 162,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 163,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 164,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 165,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 166,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 167,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 168,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 169,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 170,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 171,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 172,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 173,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 174,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 176,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 177,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 178,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 179,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 180,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 181,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 182,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 183,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 184,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 185,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 186,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 187,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 188,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 189,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 190,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 192,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 193,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 194,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 195,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 196,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 197,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 198,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 199,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 200,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 201,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 202,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 203,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 204,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 205,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 206,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 208,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 209,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 210,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 211,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 212,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 213,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 214,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 215,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 216,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 217,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 218,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 219,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 220,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 221,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 222,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 224,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 225,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 226,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 227,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 228,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 229,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 230,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 231,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 232,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 233,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 234,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 235,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 236,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 237,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 238,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 240,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 241,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 242,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 243,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 244,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 245,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 246,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 247,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 248,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 249,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 250,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 251,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 252,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 253,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 254,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 656,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 657,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 658,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 659,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 660,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 661,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 662,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 663,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 664,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 665,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 666,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 667,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 668,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 669,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 670,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 752,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 753,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 754,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 755,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 756,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 757,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 758,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 759,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 760,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 761,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 762,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 763,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 764,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 765,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 766,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 800,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 801,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 802,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 803,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 804,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 805,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 806,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 807,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 808,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 809,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 810,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 811,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 812,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 813,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 814,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 848,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 849,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 850,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 851,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 852,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 853,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 854,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 855,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 856,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 857,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 858,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 859,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 860,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 861,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 862,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 864,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 865,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 866,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 867,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 868,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 869,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 870,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 871,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 872,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 873,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 874,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 875,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 876,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 877,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 878,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 960,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 961,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 962,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 963,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 964,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 965,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 966,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 967,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 968,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 969,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 970,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 971,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 972,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 973,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 974,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 976,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 977,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 978,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 979,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 980,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 981,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 982,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 983,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 984,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 985,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 986,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 987,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 988,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 989,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 990,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1072,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1073,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1074,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1075,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1076,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1077,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1078,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1079,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1080,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1081,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1082,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1083,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1084,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1085,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1086,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1088,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1089,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1090,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1091,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1092,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1093,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1094,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1095,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1096,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1097,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1098,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1099,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1100,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1101,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1102,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1184,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1185,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1186,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1187,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1188,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1189,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1190,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1191,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1192,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1193,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1194,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1195,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1196,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1197,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1198,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1200,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1201,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1202,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1203,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1204,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1205,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1206,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1207,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1208,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1209,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1210,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1211,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1212,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1213,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1214,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1296,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1297,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1298,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1299,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1300,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1301,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1302,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1303,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1304,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1305,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1306,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1307,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1308,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1309,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1310,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1312,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1313,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1314,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1315,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1316,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1317,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1318,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1319,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1320,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1321,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1322,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1323,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1324,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1325,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1326,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1408,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1409,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1410,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1411,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1412,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1413,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1414,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1415,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1416,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1417,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1418,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1419,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1420,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1421,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1422,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1424,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1425,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1426,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1427,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1428,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1429,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1430,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1431,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1432,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1433,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1434,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1435,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1436,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1437,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        },
+        {
+          "apid": 1438,
+          "description": "HK-TM",
+          "sensor": "spacecraft"
+        }
+      ]
+    },
+    {
+      "vcid": 9,
+      "description": "Platform Ancillary",
+      "apids": []
+    },
+    {
+      "vcid": 10,
+      "description": "ADMIN DDB message",
+      "apids": []
+    },
+    {
+      "vcid": 11,
+      "description": "RO",
+      "apids": [
+        {
+          "apid": 880,
+          "description": "Science Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 881,
+          "description": "Science Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 882,
+          "description": "Science Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 883,
+          "description": "Science Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 884,
+          "description": "Science Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 885,
+          "description": "Science Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 886,
+          "description": "Science Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 887,
+          "description": "Science Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 888,
+          "description": "Science Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 889,
+          "description": "Science Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 890,
+          "description": "Science Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 891,
+          "description": "Science Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 892,
+          "description": "Science Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 893,
+          "description": "Science Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 894,
+          "description": "Science Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 896,
+          "description": "Calibration Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 897,
+          "description": "Calibration Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 898,
+          "description": "Calibration Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 899,
+          "description": "Calibration Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 900,
+          "description": "Calibration Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 901,
+          "description": "Calibration Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 902,
+          "description": "Calibration Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 903,
+          "description": "Calibration Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 904,
+          "description": "Calibration Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 905,
+          "description": "Calibration Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 906,
+          "description": "Calibration Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 907,
+          "description": "Calibration Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 908,
+          "description": "Calibration Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 909,
+          "description": "Calibration Data",
+          "sensor": "ro"
+        },
+        {
+          "apid": 910,
+          "description": "Calibration Data",
+          "sensor": "ro"
+        }
+      ]
+    },
+    {
+      "vcid": 12,
+      "description": "IASI-NG",
+      "apids": [
+        {
+          "apid": 992,
+          "description": "NSD data",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 993,
+          "description": "NSD data",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 994,
+          "description": "NSD data",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 995,
+          "description": "NSD data",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 996,
+          "description": "NSD data",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 997,
+          "description": "NSD data",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 998,
+          "description": "NSD data",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 999,
+          "description": "NSD data",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1000,
+          "description": "NSD data",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1001,
+          "description": "NSD data",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1002,
+          "description": "NSD data",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1003,
+          "description": "NSD data",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1004,
+          "description": "NSD data",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1005,
+          "description": "NSD data",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1006,
+          "description": "NSD data",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1008,
+          "description": "Check mode",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1009,
+          "description": "Check mode",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1010,
+          "description": "Check mode",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1011,
+          "description": "Check mode",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1012,
+          "description": "Check mode",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1013,
+          "description": "Check mode",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1014,
+          "description": "Check mode",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1015,
+          "description": "Check mode",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1016,
+          "description": "Check mode",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1017,
+          "description": "Check mode",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1018,
+          "description": "Check mode",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1019,
+          "description": "Check mode",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1020,
+          "description": "Check mode",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1021,
+          "description": "Check mode",
+          "sensor": "iasi-ng"
+        },
+        {
+          "apid": 1022,
+          "description": "Check mode",
+          "sensor": "iasi-ng"
+        }
+      ]
+    },
+    {
+      "vcid": 13,
+      "description": "MWS",
+      "apids": [
+        {
+          "apid": 1104,
+          "description": "Science data",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1105,
+          "description": "Science data",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1106,
+          "description": "Science data",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1107,
+          "description": "Science data",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1108,
+          "description": "Science data",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1109,
+          "description": "Science data",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1110,
+          "description": "Science data",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1111,
+          "description": "Science data",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1112,
+          "description": "Science data",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1113,
+          "description": "Science data",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1114,
+          "description": "Science data",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1115,
+          "description": "Science data",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1116,
+          "description": "Science data",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1117,
+          "description": "Science data",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1118,
+          "description": "Science data",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1120,
+          "description": "Calibration",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1121,
+          "description": "Calibration",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1122,
+          "description": "Calibration",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1123,
+          "description": "Calibration",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1124,
+          "description": "Calibration",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1125,
+          "description": "Calibration",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1126,
+          "description": "Calibration",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1127,
+          "description": "Calibration",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1128,
+          "description": "Calibration",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1129,
+          "description": "Calibration",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1130,
+          "description": "Calibration",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1131,
+          "description": "Calibration",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1132,
+          "description": "Calibration",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1133,
+          "description": "Calibration",
+          "sensor": "mws"
+        },
+        {
+          "apid": 1134,
+          "description": "Calibration",
+          "sensor": "mws"
+        }
+      ]
+    },
+    {
+      "vcid": 14,
+      "description": "3MI",
+      "apids": [
+        {
+          "apid": 1216,
+          "description": "Science data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1217,
+          "description": "Science data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1218,
+          "description": "Science data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1219,
+          "description": "Science data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1220,
+          "description": "Science data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1221,
+          "description": "Science data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1222,
+          "description": "Science data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1223,
+          "description": "Science data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1224,
+          "description": "Science data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1225,
+          "description": "Science data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1226,
+          "description": "Science data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1227,
+          "description": "Science data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1228,
+          "description": "Science data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1229,
+          "description": "Science data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1230,
+          "description": "Science data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1232,
+          "description": "Calibration data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1233,
+          "description": "Calibration data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1234,
+          "description": "Calibration data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1235,
+          "description": "Calibration data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1236,
+          "description": "Calibration data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1237,
+          "description": "Calibration data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1238,
+          "description": "Calibration data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1239,
+          "description": "Calibration data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1240,
+          "description": "Calibration data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1241,
+          "description": "Calibration data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1242,
+          "description": "Calibration data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1243,
+          "description": "Calibration data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1244,
+          "description": "Calibration data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1245,
+          "description": "Calibration data",
+          "sensor": "3mi"
+        },
+        {
+          "apid": 1246,
+          "description": "Calibration data",
+          "sensor": "3mi"
+        }
+      ]
+    },
+    {
+      "vcid": 15,
+      "description": "Sentinal 5",
+      "apids": [
+        {
+          "apid": 1328,
+          "description": "Science data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1329,
+          "description": "Science data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1330,
+          "description": "Science data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1331,
+          "description": "Science data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1332,
+          "description": "Science data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1333,
+          "description": "Science data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1334,
+          "description": "Science data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1335,
+          "description": "Science data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1336,
+          "description": "Science data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1337,
+          "description": "Science data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1338,
+          "description": "Science data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1339,
+          "description": "Science data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1340,
+          "description": "Science data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1341,
+          "description": "Science data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1342,
+          "description": "Science data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1344,
+          "description": "Calibration data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1345,
+          "description": "Calibration data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1346,
+          "description": "Calibration data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1347,
+          "description": "Calibration data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1348,
+          "description": "Calibration data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1349,
+          "description": "Calibration data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1350,
+          "description": "Calibration data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1351,
+          "description": "Calibration data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1352,
+          "description": "Calibration data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1353,
+          "description": "Calibration data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1354,
+          "description": "Calibration data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1355,
+          "description": "Calibration data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1356,
+          "description": "Calibration data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1357,
+          "description": "Calibration data",
+          "sensor": "sentinal5"
+        },
+        {
+          "apid": 1358,
+          "description": "Calibration data",
+          "sensor": "sentinal5"
+        }
+      ]
+    },
+    {
+      "vcid": 16,
+      "description": "METImage",
+      "apids": [
+        {
+          "apid": 1440,
+          "description": "Science data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1441,
+          "description": "Science data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1442,
+          "description": "Science data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1443,
+          "description": "Science data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1444,
+          "description": "Science data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1445,
+          "description": "Science data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1446,
+          "description": "Science data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1447,
+          "description": "Science data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1448,
+          "description": "Science data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1449,
+          "description": "Science data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1450,
+          "description": "Science data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1451,
+          "description": "Science data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1452,
+          "description": "Science data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1453,
+          "description": "Science data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1454,
+          "description": "Science data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1456,
+          "description": "Calibration data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1457,
+          "description": "Calibration data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1458,
+          "description": "Calibration data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1459,
+          "description": "Calibration data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1460,
+          "description": "Calibration data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1461,
+          "description": "Calibration data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1462,
+          "description": "Calibration data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1463,
+          "description": "Calibration data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1464,
+          "description": "Calibration data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1465,
+          "description": "Calibration data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1466,
+          "description": "Calibration data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1467,
+          "description": "Calibration data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1468,
+          "description": "Calibration data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1469,
+          "description": "Calibration data",
+          "sensor": "metimage"
+        },
+        {
+          "apid": 1470,
+          "description": "Calibration data",
+          "sensor": "metimage"
+        }
+      ]
+    },
+    {
+      "vcid": 17,
+      "description": "SPARE",
+      "apids": []
+    }
+  ]
+}
