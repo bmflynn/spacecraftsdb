@@ -1,0 +1,34 @@
+{
+  "scid": 104,
+  "name": "aws",
+  "catalogNumber": 60543,
+  "framingConfig": {
+    "length": 1115,
+    "insertZoneLength": 0,
+    "trailerLength": 0,
+    "pseudoNoise": {},
+    "reedSolomon": {
+      "interleave": 5,
+      "virtualFillLength": 0,
+      "numCorrectable": 16
+    }
+  },
+  "vcids": [
+    {
+      "vcid": 0,
+      "description": "RT HK"
+    },
+    {
+      "vcid": 1,
+      "description": "Stored HK"
+    },
+    {
+      "vcid": 2,
+      "description": "Stored Sci"
+    },
+    {
+      "vcid": 3,
+      "description": "DDB"
+    }
+  ]
+}
