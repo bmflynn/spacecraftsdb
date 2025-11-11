@@ -1,6 +1,7 @@
 {
   "scid": 104,
   "name": "aws",
+  "aliases": [],
   "catalogNumber": 60543,
   "framingConfig": {
     "length": 1115,
@@ -16,19 +17,23 @@
   "vcids": [
     {
       "vcid": 0,
-      "description": "RT HK"
+      "description": "RT HK",
+      "apids": []
     },
     {
       "vcid": 1,
-      "description": "Stored HK"
+      "description": "Stored HK",
+      "apids": []
     },
     {
       "vcid": 2,
-      "description": "Stored Sci"
+      "description": "Stored Sci",
+      "apids": []
     },
     {
       "vcid": 3,
-      "description": "DDB"
+      "description": "DDB",
+      "apids": []
     }
   ]
 }
