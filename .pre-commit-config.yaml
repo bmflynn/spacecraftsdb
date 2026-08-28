@@ -14,5 +14,5 @@ repos:
     rev: 0.31.3
     hooks:
       - id: check-jsonschema
-        files: ^spacecrafts.data.json$
-        args: ["--base-uri", "", "--schemafile", "schemas/input.json"]
+        files: ^spacecraftsdb.json$
+        args: ["--base-uri", "", "--schemafile", "schemas/db.json"]

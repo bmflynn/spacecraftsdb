@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://dbrtn.net/schemas/spacecraft.schema.json",
+  "$id": "https://dbrtn.net/schemas/spacecraft.v1.schema.json",
   "title": "Database of spacecraft static metadata",
   "description": "Spacecrafts database schema",
   "type": "object",
@@ -141,13 +141,16 @@
           "type": "integer",
           "minimum": 0
         },
-        "trailerLength": {
-          "description": "Number of bytes in the frame trailer. To be used if not specified for the vcid.",
-          "type": "integer",
-          "minimum": 0
+        "fhecPresent": {
+          "description": "If true the 2 byte frame header error control field is present in the frame header",
+          "type": "boolean"
         },
         "ocfPresent": {
-          "description": "If true the 4 byte OCF field is present at the end of each frame",
+          "description": "If true the 4 byte operational controler field is present at the end of each frame",
+          "type": "boolean"
+        },
+        "fecPresent": {
+          "description": "If true the 2 byte frame errro control field is present at the end of each frame",
           "type": "boolean"
         },
         "pseudoNoise": {
@@ -196,13 +199,16 @@
           "description": "Virtual channel specifc framing configuration",
           "type": "object",
           "properties": {
-            "trailerLength": {
-              "description": "Number of bytes in the frame trailer. To be used if not specified for the vcid.",
-              "type": "integer",
-              "minimum": 0
+            "fhecPresent": {
+              "description": "If true the 2 byte frame header error control field is present in the frame header",
+              "type": "boolean"
             },
             "ocfPresent": {
-              "description": "If true the 4 byte OCF field is present at the end of each frame",
+              "description": "If true the 4 byte operational controler field is present at the end of each frame",
+              "type": "boolean"
+            },
+            "fecPresent": {
+              "description": "If true the 2 byte frame errro control field is present at the end of each frame",
               "type": "boolean"
             }
           }

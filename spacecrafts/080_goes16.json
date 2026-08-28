@@ -21,7 +21,7 @@
   "framing": {
     "length": 2044,
     "insertZoneLength": 0,
-    "trailerLength": 2,
+    "fecPresent": true,
     "type": "ccsds_aos"
   },
   "noradCatalogID": 41866,

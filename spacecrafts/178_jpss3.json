@@ -55,7 +55,7 @@
   "framing": {
     "length": 1115,
     "insertZoneLength": 9,
-    "trailerLength": 4,
+    "ocfPresent": true,
     "pseudoNoise": {},
     "reedSolomon": {
       "interleave": 5,

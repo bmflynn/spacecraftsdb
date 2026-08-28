@@ -1,14 +1,26 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+## [UNRELEASED]
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+### Breaking
 
-## [Unreleased]
+This version contains breaking changes to allow a more complete and flexible 
+description. Namely to correct issues in how timecodes are described as well as 
+to support the different CCSDS framing types, and also to more accurately describe
+the use of OCF, FEC, and FHEC frame fields.
+
+- Move `apids` out of VCID configuration
+- Change the way timecodes are configured
+- Rename
+    - `framingConfig` -> `framing`
+    - `catalogNumber` -> `noradCatalogID`
+- Replace `trailerLength` with the more specific `ocfPresent`, `fhecPresent`, and 
+  `fecPresent`.
 
 ### Added
+- Separate out spacecraft schema so files can be used separately
 - Added provisional Metop-SG A1, A2, A3, B1, B2, B3 support
+- Allow per-vcid framing configuration
 
 ### Changed
 - Use pre-commit

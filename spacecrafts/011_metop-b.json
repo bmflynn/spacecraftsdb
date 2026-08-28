@@ -45,7 +45,6 @@
   "framing": {
     "length": 892,
     "insertZoneLength": 2,
-    "trailerLength": 0,
     "pseudoNoise": {},
     "reedSolomon": {
       "interleave": 4,
