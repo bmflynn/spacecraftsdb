@@ -1,0 +1,37 @@
+{
+  "scid": 254,
+  "name": "gosat-gw",
+  "aliases": [
+    "ggw"
+  ],
+  "vcids": [
+    {
+      "vcid": 1,
+      "description": "HK"
+    },
+    {
+      "vcid": 3,
+      "description": "AMSR3 mission"
+    }
+  ],
+  "framing": {
+    "length": 220,
+    "ocfPresent": true,
+    "pseudoNoise": {},
+    "reedSolomon": {
+      "interleave": 1,
+      "virtualFillLength": 3,
+      "numCorrectable": 16
+    },
+    "type": "ccsds_aos"
+  },
+  "noradCatalogID": 64694,
+  "timecodes": {
+    "cuc": {
+      "format": "cuc",
+      "epoch": "2013-01-01 00:00:00 TAI",
+      "selfIdentifying": true
+    }
+  },
+  "apids": []
+}

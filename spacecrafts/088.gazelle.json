@@ -1,0 +1,96 @@
+{
+  "scid": 88,
+  "name": "gazelle",
+  "aliases": [
+    "otb3"
+  ],
+  "vcids": [
+    {
+      "vcid": 1,
+      "description": "ADCS_DFT"
+    },
+    {
+      "vcid": 6,
+      "description": "ADCS_RFT"
+    }
+  ],
+  "framing": {
+    "length": 892,
+    "insertZoneLength": 2,
+    "pseudoNoise": {},
+    "reedSolomon": {
+      "interleave": 4,
+      "virtualFillLength": 0,
+      "numCorrectable": 16
+    },
+    "type": "ccsds_aos"
+  },
+  "noradCatalogID": 54023,
+  "timecodes": {},
+  "apids": [
+    {
+      "apid": 1201,
+      "vcid": 1
+    },
+    {
+      "apid": 1204,
+      "vcid": 1
+    },
+    {
+      "apid": 1209,
+      "vcid": 1
+    },
+    {
+      "apid": 1218,
+      "vcid": 1
+    },
+    {
+      "apid": 1219,
+      "vcid": 1
+    },
+    {
+      "apid": 1223,
+      "vcid": 1
+    },
+    {
+      "apid": 1225,
+      "vcid": 1
+    },
+    {
+      "apid": 1228,
+      "vcid": 1
+    },
+    {
+      "apid": 1201,
+      "vcid": 6
+    },
+    {
+      "apid": 1204,
+      "vcid": 6
+    },
+    {
+      "apid": 1209,
+      "vcid": 6
+    },
+    {
+      "apid": 1218,
+      "vcid": 6
+    },
+    {
+      "apid": 1219,
+      "vcid": 6
+    },
+    {
+      "apid": 1223,
+      "vcid": 6
+    },
+    {
+      "apid": 1225,
+      "vcid": 6
+    },
+    {
+      "apid": 1228,
+      "vcid": 6
+    }
+  ]
+}

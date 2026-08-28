@@ -1,0 +1,232 @@
+{
+  "scid": 66,
+  "name": "oceansat3",
+  "aliases": [
+    "eos6"
+  ],
+  "vcids": [
+    {
+      "vcid": 1,
+      "description": "ADCS_DFT"
+    },
+    {
+      "vcid": 6,
+      "description": "ADCS_RFT"
+    }
+  ],
+  "framing": {
+    "length": 892,
+    "insertZoneLength": 2,
+    "pseudoNoise": {},
+    "reedSolomon": {
+      "interleave": 4,
+      "virtualFillLength": 0,
+      "numCorrectable": 16
+    },
+    "type": "ccsds_aos"
+  },
+  "noradCatalogID": 54361,
+  "timecodes": {},
+  "apids": [
+    {
+      "apid": 1,
+      "vcid": 1
+    },
+    {
+      "apid": 11,
+      "vcid": 1
+    },
+    {
+      "apid": 21,
+      "vcid": 1
+    },
+    {
+      "apid": 22,
+      "vcid": 1
+    },
+    {
+      "apid": 23,
+      "vcid": 1
+    },
+    {
+      "apid": 31,
+      "vcid": 1
+    },
+    {
+      "apid": 32,
+      "vcid": 1
+    },
+    {
+      "apid": 33,
+      "vcid": 1
+    },
+    {
+      "apid": 41,
+      "vcid": 1
+    },
+    {
+      "apid": 42,
+      "vcid": 1
+    },
+    {
+      "apid": 43,
+      "vcid": 1
+    },
+    {
+      "apid": 50,
+      "vcid": 1
+    },
+    {
+      "apid": 1000,
+      "vcid": 1
+    },
+    {
+      "apid": 1001,
+      "vcid": 1
+    },
+    {
+      "apid": 1002,
+      "vcid": 1
+    },
+    {
+      "apid": 1003,
+      "vcid": 1
+    },
+    {
+      "apid": 2000,
+      "vcid": 1
+    },
+    {
+      "apid": 1201,
+      "vcid": 1
+    },
+    {
+      "apid": 1204,
+      "vcid": 1
+    },
+    {
+      "apid": 1209,
+      "vcid": 1
+    },
+    {
+      "apid": 1218,
+      "vcid": 1
+    },
+    {
+      "apid": 1219,
+      "vcid": 1
+    },
+    {
+      "apid": 1223,
+      "vcid": 1
+    },
+    {
+      "apid": 1225,
+      "vcid": 1
+    },
+    {
+      "apid": 1228,
+      "vcid": 1
+    },
+    {
+      "apid": 1,
+      "vcid": 6
+    },
+    {
+      "apid": 11,
+      "vcid": 6
+    },
+    {
+      "apid": 21,
+      "vcid": 6
+    },
+    {
+      "apid": 22,
+      "vcid": 6
+    },
+    {
+      "apid": 23,
+      "vcid": 6
+    },
+    {
+      "apid": 31,
+      "vcid": 6
+    },
+    {
+      "apid": 32,
+      "vcid": 6
+    },
+    {
+      "apid": 33,
+      "vcid": 6
+    },
+    {
+      "apid": 41,
+      "vcid": 6
+    },
+    {
+      "apid": 42,
+      "vcid": 6
+    },
+    {
+      "apid": 43,
+      "vcid": 6
+    },
+    {
+      "apid": 50,
+      "vcid": 6
+    },
+    {
+      "apid": 1000,
+      "vcid": 6
+    },
+    {
+      "apid": 1001,
+      "vcid": 6
+    },
+    {
+      "apid": 1002,
+      "vcid": 6
+    },
+    {
+      "apid": 1003,
+      "vcid": 6
+    },
+    {
+      "apid": 2000,
+      "vcid": 6
+    },
+    {
+      "apid": 1201,
+      "vcid": 6
+    },
+    {
+      "apid": 1204,
+      "vcid": 6
+    },
+    {
+      "apid": 1209,
+      "vcid": 6
+    },
+    {
+      "apid": 1218,
+      "vcid": 6
+    },
+    {
+      "apid": 1219,
+      "vcid": 6
+    },
+    {
+      "apid": 1223,
+      "vcid": 6
+    },
+    {
+      "apid": 1225,
+      "vcid": 6
+    },
+    {
+      "apid": 1228,
+      "vcid": 6
+    }
+  ]
+}

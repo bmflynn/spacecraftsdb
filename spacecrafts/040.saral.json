@@ -1,0 +1,40 @@
+{
+  "scid": 40,
+  "name": "saral",
+  "aliases": [],
+  "vcids": [
+    {
+      "vcid": 1,
+      "description": "ADCS_DFT"
+    },
+    {
+      "vcid": 6,
+      "description": "ADCS_RFT"
+    }
+  ],
+  "framing": {
+    "length": 892,
+    "insertZoneLength": 2,
+    "pseudoNoise": {},
+    "reedSolomon": {
+      "interleave": 4,
+      "virtualFillLength": 0,
+      "numCorrectable": 16
+    },
+    "type": "ccsds_aos"
+  },
+  "noradCatalogID": 39086,
+  "timecodes": {},
+  "apids": [
+    {
+      "apid": 36,
+      "vcid": 1,
+      "description": "ADCS_DFT"
+    },
+    {
+      "apid": 36,
+      "vcid": 6,
+      "description": "ADCS_RFT"
+    }
+  ]
+}
