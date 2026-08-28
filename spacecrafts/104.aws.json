@@ -1,0 +1,46 @@
+{
+  "scid": 104,
+  "name": "aws",
+  "aliases": [],
+  "vcids": [
+    {
+      "vcid": 0,
+      "description": "RT HK"
+    },
+    {
+      "vcid": 1,
+      "description": "Stored HK"
+    },
+    {
+      "vcid": 2,
+      "description": "Stored Sci"
+    },
+    {
+      "vcid": 3,
+      "description": "DDB"
+    }
+  ],
+  "framing": {
+    "length": 1115,
+    "insertZoneLength": 0,
+    "trailerLength": 0,
+    "pseudoNoise": {},
+    "reedSolomon": {
+      "interleave": 5,
+      "virtualFillLength": 0,
+      "numCorrectable": 16
+    },
+    "type": "ccsds_tm"
+  },
+  "noradCatalogID": 60543,
+  "timecodes": {
+    "cuc": {
+      "format": "cuc",
+      "epoch": "1980-01-06 00:00:00 TAI",
+      "basicLength": 4,
+      "fineLength": 3,
+      "fineNanos": 1
+    }
+  },
+  "apids": []
+}

@@ -68,7 +68,7 @@
           "type": "string"
         },
         "links": {
-          "description": "Links related to this spacecraft",
+          "description": "Links related to this spacecraft, e.g., ICD or Space to Ground docs",
           "type": "array",
           "items": {
             "$ref": "#/$defs/link"
@@ -81,11 +81,11 @@
             "type": "string"
           }
         },
-        "catalogNumber": {
-          "description": "NORAD catalog number",
+        "noradCatalogID": {
+          "description": "NORAD catalog identifier",
           "type": "integer"
         },
-        "framingConfig": {
+        "framing": {
           "$ref": "#/$defs/framingConfig"
         },
         "vcids": {
@@ -94,12 +94,54 @@
           "items": {
             "$ref": "#/$defs/virtualChannel"
           }
+        },
+        "timecodes": {
+          "description": "Timecode configurations",
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/timecode"
+          }
+        },
+        "apids": {
+          "description": "Application identifiers",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "apid": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 2048
+              },
+              "vcid": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 2048
+              },
+              "sensor": {
+                "description": "Sensor this APID is for, if any",
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "timecode": {
+                "type": "string",
+                "description": "Name of timecode configuration from global configuration"
+              }
+            },
+            "required": [
+              "apid",
+              "vcid"
+            ]
+          }
         }
       },
       "required": [
         "scid",
-        "framingConfig",
-        "vcids"
+        "framing",
+        "vcids",
+        "apids"
       ]
     },
     "framingConfig": {
@@ -111,18 +153,31 @@
           "type": "integer",
           "minimum": 0
         },
+        "type": {
+          "description": "Type of the frame",
+          "type": "string",
+          "enum": [
+            "ccsds_aos",
+            "ccsds_tm",
+            "unknown"
+          ]
+        },
         "insertZoneLength": {
           "description": "Number of bytes in the insert zone",
           "type": "integer",
           "minimum": 0
         },
         "trailerLength": {
-          "description": "Number of bytes in the frame trailer",
+          "description": "Number of bytes in the frame trailer. To be used if not specified for the vcid.",
           "type": "integer",
           "minimum": 0
         },
+        "ocfPresent": {
+          "description": "If true the 4 byte OCF field is present at the end of each frame",
+          "type": "boolean"
+        },
         "pseudoNoise": {
-          "description": "Pseudo noise configuration",
+          "description": "Pseudo noise configuration. Non-nil value indicates standard CCSDS PN.",
           "type": "object",
           "const": {}
         },
@@ -136,7 +191,7 @@
               "maximum": 5
             },
             "virtualFillLength": {
-              "description": "Number of bytes of virtual fill used",
+              "description": "Number of bytes of virtual fill necessary",
               "type": "integer",
               "minimum": 0
             },
@@ -149,8 +204,7 @@
       },
       "required": [
         "length",
-        "insertZoneLength",
-        "trailerLength"
+        "type"
       ]
     },
     "virtualChannel": {
@@ -164,57 +218,30 @@
         "description": {
           "type": "string"
         },
-        "apids": {
-          "description": "Application identifiers",
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "apid": {
-                "type": "integer",
-                "minimum": 0,
-                "maximum": 2048
-              },
-              "sensor": {
-                "description": "Sensor this APID is for, if any",
-                "type": "string"
-              },
-              "description": {
-                "type": "string"
-              },
-              "timecodeFormat": {
-                "description": "APID specific timecode format",
-                "$ref": "#/$defs/timecode"
-              }
+        "framing": {
+          "description": "Virtual channel specifc framing configuration",
+          "type": "object",
+          "properties": {
+            "trailerLength": {
+              "description": "Number of bytes in the frame trailer. To be used if not specified for the vcid.",
+              "type": "integer",
+              "minimum": 0
             },
-            "required": [
-              "apid"
-            ]
+            "ocfPresent": {
+              "description": "If true the 4 byte OCF field is present at the end of each frame",
+              "type": "boolean"
+            }
           }
         }
       },
       "required": [
-        "vcid",
-        "apids"
+        "vcid"
       ]
     },
     "timecode": {
-      "description": "Timecode configuration",
+      "description": "Timecode configuration for implied (non-self-identifying) packets where the p-field is not present in the bit stream.",
       "type": "object",
-      "properties": {
-        "epoch": {
-          "description": "Epoch time for timestamp calculations. Defaults to Jan 1, 1958",
-          "type": "string",
-          "format": "date-time"
-        },
-        "offset": {
-          "type": "integer",
-          "description": "offset to the first byte in the timecode starting at the userdata field",
-          "minimum": 0,
-          "maximum": 65529,
-          "default": 0
-        }
-      },
+      "properties": {},
       "oneOf": [
         {
           "type": "object",
@@ -222,28 +249,38 @@
             "format": {
               "const": "cds"
             },
-            "numDay": {
+            "epoch": {
+              "description": "Epoch time (UTC) for timestamp calculations.",
+              "type": "string",
+              "format": "date-time"
+            },
+            "dayLength": {
+              "description": "number of bytes for day component",
               "type": "integer",
               "enum": [
                 2,
                 3
-              ],
-              "description": "Number of bytes for the day field"
+              ]
             },
-            "numSubmillis": {
+            "submillisLength": {
+              "description": "number of bytes for the submillis component",
               "type": "integer",
               "enum": [
                 0,
                 2,
                 4
-              ],
-              "description": "Value indicating number bytes for the submillisecond resolution field"
+              ]
+            },
+            "selfIdentifying": {
+              "description": "Pfield is present in the data stream",
+              "type": "boolean"
             }
           },
           "required": [
+            "epoch",
             "format",
-            "numDay",
-            "numSubmillis"
+            "dayLength",
+            "submillisLength"
           ]
         },
         {
@@ -252,28 +289,38 @@
             "format": {
               "const": "cuc"
             },
-            "numFine": {
+            "epoch": {
+              "description": "Epoch time (TAI) for timestamp calculations",
+              "type": "string",
+              "format": "date-time"
+            },
+            "basicLength": {
               "type": "integer",
               "minimum": 1,
+              "maximum": 8,
+              "description": "Number of bytes for the basic time component"
+            },
+            "fineNanos": {
+              "type": "number",
+              "minimum": 1,
+              "description": "Number of nanoseconds each for each fine time count"
+            },
+            "fineLength": {
+              "type": "integer",
+              "minimum": 0,
               "maximum": 8,
               "description": "Number of bytes for the fine time component"
             },
-            "fineMult": {
-              "type": "number",
-              "minimum": 0,
-              "description": "Multiplier to convert the fine counter value to nanoseconds"
-            },
-            "numCoarse": {
-              "type": "integer",
-              "minimum": 1,
-              "maximum": 8,
-              "description": "Number of bytes for the coarse time component"
+            "selfIdentifying": {
+              "description": "Pfield is present in the data stream",
+              "type": "boolean"
             }
           },
           "required": [
             "format",
-            "numFine",
-            "numCoarse"
+            "epoch",
+            "basicLength",
+            "fineLength"
           ]
         }
       ],

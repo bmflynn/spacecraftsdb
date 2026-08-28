@@ -4,8 +4,65 @@
   "aliases": [
     "npp"
   ],
-  "catalogNumber": 37849,
-  "framingConfig": {
+  "vcids": [
+    {
+      "vcid": 0,
+      "description": "Satellite housekeeping"
+    },
+    {
+      "vcid": 1,
+      "description": "ATMS sci/cal/engr"
+    },
+    {
+      "vcid": 3,
+      "description": "ATMS diag"
+    },
+    {
+      "vcid": 6,
+      "description": "CrIS sci/cal/engr"
+    },
+    {
+      "vcid": 7,
+      "description": "CrIS sci/cal/engr"
+    },
+    {
+      "vcid": 8,
+      "description": "CrIS diag"
+    },
+    {
+      "vcid": 11,
+      "description": "OMPS nadir sci/cal/engr"
+    },
+    {
+      "vcid": 12,
+      "description": "OMPS limb sci/cal/engr"
+    },
+    {
+      "vcid": 13,
+      "description": "OMPS diag"
+    },
+    {
+      "vcid": 16,
+      "description": "VIIRS sci/cal/engr"
+    },
+    {
+      "vcid": 17,
+      "description": "VIIRS sci/cal/engr"
+    },
+    {
+      "vcid": 18,
+      "description": "VIIRS diag"
+    },
+    {
+      "vcid": 21,
+      "description": "Instrument dump/dwell"
+    },
+    {
+      "vcid": 24,
+      "description": "CERES sci/cal/engr"
+    }
+  ],
+  "framing": {
     "length": 892,
     "insertZoneLength": 0,
     "trailerLength": 0,
@@ -14,2167 +71,1747 @@
       "interleave": 4,
       "virtualFillLength": 0,
       "numCorrectable": 16
+    },
+    "type": "ccsds_aos"
+  },
+  "noradCatalogID": 37849,
+  "timecodes": {
+    "cds": {
+      "format": "cds",
+      "epoch": "1958-01-01T00:00:00Z",
+      "dayLength": 2,
+      "submillisLength": 2
     }
   },
-  "vcids": [
+  "apids": [
     {
-      "vcid": 0,
-      "description": "Satellite housekeeping",
-      "apids": [
-        {
-          "apid": 0,
-          "sensor": "spacecraft",
-          "description": "Bus critical",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 2,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 3,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 4,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 5,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 6,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 7,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 8,
-          "sensor": "spacecraft",
-          "description": "ADCS HSK Telemetry HR",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 9,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 10,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 11,
-          "sensor": "spacecraft",
-          "description": "Ephemeris/attitude",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 12,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 13,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 14,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 15,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 16,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 17,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 18,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 19,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 20,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 21,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 22,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 23,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 24,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 25,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 26,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 27,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 28,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 29,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 30,
-          "sensor": "spacecraft",
-          "description": "ACS 10hz SOH",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 31,
-          "sensor": "spacecraft",
-          "description": "ACS 1hz SOH"
-        },
-        {
-          "apid": 32,
-          "sensor": "spacecraft",
-          "description": "ACS 1hz SOH"
-        },
-        {
-          "apid": 33,
-          "sensor": "spacecraft",
-          "description": "ACS 1hz SOH"
-        },
-        {
-          "apid": 34,
-          "sensor": "spacecraft",
-          "description": "ACS 1hz SOH",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 35,
-          "sensor": "spacecraft",
-          "description": "ACS 1hz SOH"
-        },
-        {
-          "apid": 36,
-          "sensor": "spacecraft",
-          "description": "ACS 1hz SOH"
-        },
-        {
-          "apid": 37,
-          "sensor": "spacecraft",
-          "description": "ACS 1hz SOH",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 38,
-          "sensor": "spacecraft",
-          "description": "ACS 1hz SOH"
-        },
-        {
-          "apid": 39,
-          "sensor": "spacecraft",
-          "description": "ACS 1hz SOH"
-        },
-        {
-          "apid": 40,
-          "sensor": "spacecraft",
-          "description": "ACS 1hz SOH"
-        },
-        {
-          "apid": 41,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 42,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 43,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 44,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 45,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 46,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 47,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 48,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 49,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 155,
-          "sensor": "ceres",
-          "description": "CERES LEO&A"
-        },
-        {
-          "apid": 512,
-          "sensor": "atms",
-          "description": "ATMS cmd status"
-        },
-        {
-          "apid": 513,
-          "sensor": "atms",
-          "description": "ATMS LEO&A hk"
-        },
-        {
-          "apid": 518,
-          "sensor": "atms",
-          "description": "ATMS hk"
-        },
-        {
-          "apid": 543,
-          "sensor": "atms",
-          "description": "ATMS hw status"
-        },
-        {
-          "apid": 544,
-          "sensor": "omps",
-          "description": "OMPS hk"
-        },
-        {
-          "apid": 545,
-          "sensor": "omps",
-          "description": "OMPS LEO&A"
-        },
-        {
-          "apid": 550,
-          "sensor": "omps",
-          "description": "OMPS diag fws boot"
-        },
-        {
-          "apid": 768,
-          "sensor": "viirs",
-          "description": "Housekeeping"
-        },
-        {
-          "apid": 769,
-          "sensor": "viirs",
-          "description": "LEO&A"
-        },
-        {
-          "apid": 773,
-          "sensor": "viirs",
-          "description": "Diag"
-        },
-        {
-          "apid": 1280,
-          "sensor": "cris",
-          "description": "CrIS hk"
-        },
-        {
-          "apid": 1281,
-          "sensor": "cris",
-          "description": "CrIS hk"
-        },
-        {
-          "apid": 1282,
-          "sensor": "cris",
-          "description": "CrIS hk"
-        },
-        {
-          "apid": 1283,
-          "sensor": "cris",
-          "description": "CrIS hk"
-        },
-        {
-          "apid": 1284,
-          "sensor": "cris",
-          "description": "CrIS hk"
-        },
-        {
-          "apid": 1285,
-          "sensor": "cris",
-          "description": "CrIS hk"
-        },
-        {
-          "apid": 1286,
-          "sensor": "cris",
-          "description": "CrIS hk"
-        },
-        {
-          "apid": 1287,
-          "sensor": "cris",
-          "description": "CrIS hk"
-        }
-      ]
+      "apid": 0,
+      "sensor": "spacecraft",
+      "description": "Bus critical",
+      "timecode": "cds",
+      "vcid": 0
     },
     {
-      "vcid": 1,
-      "description": "ATMS sci/cal/engr",
-      "apids": [
-        {
-          "apid": 50,
-          "sensor": "spacecraft",
-          "description": "Spacecraft"
-        },
-        {
-          "apid": 515,
-          "sensor": "atms",
-          "description": "ATMS cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 528,
-          "sensor": "atms",
-          "description": "ATMS sci",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 530,
-          "sensor": "atms",
-          "description": "ATMS engr hot cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 531,
-          "sensor": "atms",
-          "description": "ATMS engr status",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        }
-      ]
+      "apid": 1,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
     },
     {
-      "vcid": 3,
+      "apid": 2,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 3,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 4,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 5,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 6,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 7,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 8,
+      "sensor": "spacecraft",
+      "description": "ADCS HSK Telemetry HR",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 9,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 10,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 11,
+      "sensor": "spacecraft",
+      "description": "Ephemeris/attitude",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 12,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 13,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 14,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 15,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 16,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 17,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 18,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 19,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 20,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 21,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 22,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 23,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 24,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 25,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 26,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 27,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 28,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 29,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 30,
+      "sensor": "spacecraft",
+      "description": "ACS 10hz SOH",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 31,
+      "sensor": "spacecraft",
+      "description": "ACS 1hz SOH",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 32,
+      "sensor": "spacecraft",
+      "description": "ACS 1hz SOH",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 33,
+      "sensor": "spacecraft",
+      "description": "ACS 1hz SOH",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 34,
+      "sensor": "spacecraft",
+      "description": "ACS 1hz SOH",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 35,
+      "sensor": "spacecraft",
+      "description": "ACS 1hz SOH",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 36,
+      "sensor": "spacecraft",
+      "description": "ACS 1hz SOH",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 37,
+      "sensor": "spacecraft",
+      "description": "ACS 1hz SOH",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 38,
+      "sensor": "spacecraft",
+      "description": "ACS 1hz SOH",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 39,
+      "sensor": "spacecraft",
+      "description": "ACS 1hz SOH",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 40,
+      "sensor": "spacecraft",
+      "description": "ACS 1hz SOH",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 41,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 42,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 43,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 44,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 45,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 46,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 47,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 48,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 49,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 155,
+      "sensor": "ceres",
+      "description": "CERES LEO&A",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 512,
+      "sensor": "atms",
+      "description": "ATMS cmd status",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 513,
+      "sensor": "atms",
+      "description": "ATMS LEO&A hk",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 518,
+      "sensor": "atms",
+      "description": "ATMS hk",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 543,
+      "sensor": "atms",
+      "description": "ATMS hw status",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 544,
+      "sensor": "omps",
+      "description": "OMPS hk",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 545,
+      "sensor": "omps",
+      "description": "OMPS LEO&A",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 550,
+      "sensor": "omps",
+      "description": "OMPS diag fws boot",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 768,
+      "sensor": "viirs",
+      "description": "Housekeeping",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 769,
+      "sensor": "viirs",
+      "description": "LEO&A",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 773,
+      "sensor": "viirs",
+      "description": "Diag",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 1280,
+      "sensor": "cris",
+      "description": "CrIS hk",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 1281,
+      "sensor": "cris",
+      "description": "CrIS hk",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 1282,
+      "sensor": "cris",
+      "description": "CrIS hk",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 1283,
+      "sensor": "cris",
+      "description": "CrIS hk",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 1284,
+      "sensor": "cris",
+      "description": "CrIS hk",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 1285,
+      "sensor": "cris",
+      "description": "CrIS hk",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 1286,
+      "sensor": "cris",
+      "description": "CrIS hk",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 1287,
+      "sensor": "cris",
+      "description": "CrIS hk",
+      "timecode": "cds",
+      "vcid": 0
+    },
+    {
+      "apid": 50,
+      "sensor": "spacecraft",
+      "description": "Spacecraft",
+      "timecode": "cds",
+      "vcid": 1
+    },
+    {
+      "apid": 515,
+      "sensor": "atms",
+      "description": "ATMS cal",
+      "timecode": "cds",
+      "vcid": 1
+    },
+    {
+      "apid": 528,
+      "sensor": "atms",
+      "description": "ATMS sci",
+      "timecode": "cds",
+      "vcid": 1
+    },
+    {
+      "apid": 530,
+      "sensor": "atms",
+      "description": "ATMS engr hot cal",
+      "timecode": "cds",
+      "vcid": 1
+    },
+    {
+      "apid": 531,
+      "sensor": "atms",
+      "description": "ATMS engr status",
+      "timecode": "cds",
+      "vcid": 1
+    },
+    {
+      "apid": 514,
+      "sensor": "atms",
+      "description": "ATMS test",
+      "timecode": "cds",
+      "vcid": 3
+    },
+    {
+      "apid": 516,
+      "sensor": "atms",
       "description": "ATMS diag",
-      "apids": [
-        {
-          "apid": 514,
-          "sensor": "atms",
-          "description": "ATMS test"
-        },
-        {
-          "apid": 516,
-          "sensor": "atms",
-          "description": "ATMS diag"
-        }
-      ]
+      "timecode": "cds",
+      "vcid": 3
     },
     {
-      "vcid": 6,
-      "description": "CrIS sci/cal/engr",
-      "apids": [
-        {
-          "apid": 1289,
-          "sensor": "cris",
-          "description": "CrIS sci telemetry",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1290,
-          "sensor": "cris",
-          "description": "CrIS engr telemetry",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1315,
-          "sensor": "cris",
-          "description": "CrIS LW 1 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1316,
-          "sensor": "cris",
-          "description": "CrIS LW 2 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1317,
-          "sensor": "cris",
-          "description": "CrIS LW 3 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1319,
-          "sensor": "cris",
-          "description": "CrIS LW 5 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1320,
-          "sensor": "cris",
-          "description": "CrIS LW 6 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1321,
-          "sensor": "cris",
-          "description": "CrIS LW 7 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1322,
-          "sensor": "cris",
-          "description": "CrIS LW 8 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1323,
-          "sensor": "cris",
-          "description": "CrIS LW 9 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1324,
-          "sensor": "cris",
-          "description": "CrIS MW 1 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1325,
-          "sensor": "cris",
-          "description": "CrIS MW 2 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1326,
-          "sensor": "cris",
-          "description": "CrIS MW 3 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1328,
-          "sensor": "cris",
-          "description": "CrIS MW 5 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1329,
-          "sensor": "cris",
-          "description": "CrIS MW 6 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1330,
-          "sensor": "cris",
-          "description": "CrIS MW 7 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1331,
-          "sensor": "cris",
-          "description": "CrIS MW 8 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1332,
-          "sensor": "cris",
-          "description": "CrIS MW 9 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1333,
-          "sensor": "cris",
-          "description": "CrIS SW 1 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1334,
-          "sensor": "cris",
-          "description": "CrIS SW 2 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1335,
-          "sensor": "cris",
-          "description": "CrIS SW 3 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1337,
-          "sensor": "cris",
-          "description": "CrIS SW 5 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1338,
-          "sensor": "cris",
-          "description": "CrIS SW 6 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1339,
-          "sensor": "cris",
-          "description": "CrIS SW 7 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1340,
-          "sensor": "cris",
-          "description": "CrIS SW 8 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1341,
-          "sensor": "cris",
-          "description": "CrIS SW 9 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1342,
-          "sensor": "cris",
-          "description": "CrIS LW 1 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1343,
-          "sensor": "cris",
-          "description": "CrIS LW 2 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1344,
-          "sensor": "cris",
-          "description": "CrIS LW 3 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1346,
-          "sensor": "cris",
-          "description": "CrIS LW 5 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1347,
-          "sensor": "cris",
-          "description": "CrIS LW 6 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1348,
-          "sensor": "cris",
-          "description": "CrIS LW 7 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1349,
-          "sensor": "cris",
-          "description": "CrIS LW 8 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1350,
-          "sensor": "cris",
-          "description": "CrIS LW 9 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1351,
-          "sensor": "cris",
-          "description": "CrIS MW 1 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1352,
-          "sensor": "cris",
-          "description": "CrIS MW 2 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1353,
-          "sensor": "cris",
-          "description": "CrIS MW 3 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1355,
-          "sensor": "cris",
-          "description": "CrIS MW 5 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1356,
-          "sensor": "cris",
-          "description": "CrIS MW 6 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1357,
-          "sensor": "cris",
-          "description": "CrIS MW 7 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1358,
-          "sensor": "cris",
-          "description": "CrIS MW 8 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1359,
-          "sensor": "cris",
-          "description": "CrIS MW 9 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1360,
-          "sensor": "cris",
-          "description": "CrIS SW 1 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1361,
-          "sensor": "cris",
-          "description": "CrIS SW 2 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1362,
-          "sensor": "cris",
-          "description": "CrIS SW 3 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1364,
-          "sensor": "cris",
-          "description": "CrIS SW 5 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1365,
-          "sensor": "cris",
-          "description": "CrIS SW 6 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1366,
-          "sensor": "cris",
-          "description": "CrIS SW 7 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1367,
-          "sensor": "cris",
-          "description": "CrIS SW 8 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1368,
-          "sensor": "cris",
-          "description": "CrIS SW 9 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1369,
-          "sensor": "cris",
-          "description": "CrIS LW 1 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1370,
-          "sensor": "cris",
-          "description": "CrIS LW 2 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1371,
-          "sensor": "cris",
-          "description": "CrIS LW 3 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1373,
-          "sensor": "cris",
-          "description": "CrIS LW 5 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1374,
-          "sensor": "cris",
-          "description": "CrIS LW 6 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1375,
-          "sensor": "cris",
-          "description": "CrIS LW 7 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1376,
-          "sensor": "cris",
-          "description": "CrIS LW 8 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1377,
-          "sensor": "cris",
-          "description": "CrIS LW 9 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1378,
-          "sensor": "cris",
-          "description": "CrIS MW 1 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1379,
-          "sensor": "cris",
-          "description": "CrIS MW 2 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1380,
-          "sensor": "cris",
-          "description": "CrIS MW 3 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1382,
-          "sensor": "cris",
-          "description": "CrIS MW 5 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1383,
-          "sensor": "cris",
-          "description": "CrIS MW 6 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1384,
-          "sensor": "cris",
-          "description": "CrIS MW 7 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1385,
-          "sensor": "cris",
-          "description": "CrIS MW 8 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1386,
-          "sensor": "cris",
-          "description": "CrIS MW 9 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1387,
-          "sensor": "cris",
-          "description": "CrIS SW 1 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1388,
-          "sensor": "cris",
-          "description": "CrIS SW 2 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1389,
-          "sensor": "cris",
-          "description": "CrIS SW 3 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1391,
-          "sensor": "cris",
-          "description": "CrIS SW 5 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1392,
-          "sensor": "cris",
-          "description": "CrIS SW 6 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1393,
-          "sensor": "cris",
-          "description": "CrIS SW 7 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1394,
-          "sensor": "cris",
-          "description": "CrIS SW 8 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1395,
-          "sensor": "cris",
-          "description": "CrIS SW 9 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        }
-      ]
+      "apid": 1289,
+      "sensor": "cris",
+      "description": "CrIS sci telemetry",
+      "timecode": "cds",
+      "vcid": 6
     },
     {
-      "vcid": 7,
-      "description": "CrIS sci/cal/engr",
-      "apids": [
-        {
-          "apid": 1318,
-          "sensor": "cris",
-          "description": "CrIS LW 4 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1327,
-          "sensor": "cris",
-          "description": "CrIS MW 4 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1336,
-          "sensor": "cris",
-          "description": "CrIS SW 4 earth scene",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1345,
-          "sensor": "cris",
-          "description": "CrIS LW 4 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1354,
-          "sensor": "cris",
-          "description": "CrIS MW 4 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1363,
-          "sensor": "cris",
-          "description": "CrIS SW 4 deep space",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1372,
-          "sensor": "cris",
-          "description": "CrIS LW 4 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1381,
-          "sensor": "cris",
-          "description": "CrIS MW 4 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 1390,
-          "sensor": "cris",
-          "description": "CrIS SW 4 internal cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        }
-      ]
+      "apid": 1290,
+      "sensor": "cris",
+      "description": "CrIS engr telemetry",
+      "timecode": "cds",
+      "vcid": 6
     },
     {
-      "vcid": 8,
-      "description": "CrIS diag",
-      "apids": [
-        {
-          "apid": 1294,
-          "sensor": "cris",
-          "description": "CrIS lw diag"
-        },
-        {
-          "apid": 1295,
-          "sensor": "cris",
-          "description": "CrIS mw diag"
-        },
-        {
-          "apid": 1296,
-          "sensor": "cris",
-          "description": "CrIS sw diag"
-        },
-        {
-          "apid": 1398,
-          "sensor": "cris",
-          "description": "CrIS test"
-        }
-      ]
+      "apid": 1315,
+      "sensor": "cris",
+      "description": "CrIS LW 1 earth scene",
+      "timecode": "cds",
+      "vcid": 6
     },
     {
-      "vcid": 11,
-      "description": "OMPS nadir sci/cal/engr",
-      "apids": [
-        {
-          "apid": 560,
-          "sensor": "omps",
-          "description": "OMPS sci nadir total col"
-        },
-        {
-          "apid": 561,
-          "sensor": "omps",
-          "description": "OMPS sci nadir profiler"
-        },
-        {
-          "apid": 564,
-          "sensor": "omps",
-          "description": "OMPS sci nadir total col cal"
-        },
-        {
-          "apid": 565,
-          "sensor": "omps",
-          "description": "OMPS sci nadir profiler cal"
-        },
-        {
-          "apid": 576,
-          "sensor": "omps",
-          "description": "OMPS diag nadir total col"
-        }
-      ]
+      "apid": 1316,
+      "sensor": "cris",
+      "description": "CrIS LW 2 earth scene",
+      "timecode": "cds",
+      "vcid": 6
     },
     {
-      "vcid": 12,
-      "description": "OMPS limb sci/cal/engr",
-      "apids": [
-        {
-          "apid": 562,
-          "sensor": "omps",
-          "description": "OMPS sci limb profiler, long"
-        },
-        {
-          "apid": 563,
-          "sensor": "omps",
-          "description": "OMPS sci limb profiler, short"
-        },
-        {
-          "apid": 566,
-          "sensor": "omps",
-          "description": "OMPS scid limb profiler cal"
-        }
-      ]
+      "apid": 1317,
+      "sensor": "cris",
+      "description": "CrIS LW 3 earth scene",
+      "timecode": "cds",
+      "vcid": 6
     },
     {
-      "vcid": 13,
-      "description": "OMPS diag",
-      "apids": [
-        {
-          "apid": 546,
-          "sensor": "omps",
-          "description": "OMPS test"
-        },
-        {
-          "apid": 577,
-          "sensor": "omps",
-          "description": "OMPS diag nadir profiler"
-        },
-        {
-          "apid": 578,
-          "sensor": "omps",
-          "description": "OMPS diag limb profiler long"
-        },
-        {
-          "apid": 579,
-          "sensor": "omps",
-          "description": "OMPS diag limb profiler short"
-        },
-        {
-          "apid": 580,
-          "sensor": "omps",
-          "description": "OMPS diag total col cal"
-        },
-        {
-          "apid": 581,
-          "sensor": "omps",
-          "description": "OMPS diag nadir profiler cal"
-        },
-        {
-          "apid": 582,
-          "sensor": "omps",
-          "description": "OMPS diag limb profiler cal"
-        }
-      ]
+      "apid": 1319,
+      "sensor": "cris",
+      "description": "CrIS LW 5 earth scene",
+      "timecode": "cds",
+      "vcid": 6
     },
     {
-      "vcid": 16,
-      "description": "VIIRS sci/cal/engr",
-      "apids": [
-        {
-          "apid": 800,
-          "sensor": "viirs",
-          "description": "VIIRS M04",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 801,
-          "sensor": "viirs",
-          "description": "VIIRS M05",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 802,
-          "sensor": "viirs",
-          "description": "VIIRS M03",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 803,
-          "sensor": "viirs",
-          "description": "VIIRS M02",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 804,
-          "sensor": "viirs",
-          "description": "VIIRS M01",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 805,
-          "sensor": "viirs",
-          "description": "VIIRS M06",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 807,
-          "sensor": "viirs",
-          "description": "VIIRS M09",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 808,
-          "sensor": "viirs",
-          "description": "VIIRS M10",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 809,
-          "sensor": "viirs",
-          "description": "VIIRS M08",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 810,
-          "sensor": "viirs",
-          "description": "VIIRS M11",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 811,
-          "sensor": "viirs",
-          "description": "VIIRS M13",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 812,
-          "sensor": "viirs",
-          "description": "VIIRS M12",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 813,
-          "sensor": "viirs",
-          "description": "VIIRS I04",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 814,
-          "sensor": "viirs",
-          "description": "VIIRS M16",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 815,
-          "sensor": "viirs",
-          "description": "VIIRS M15",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 816,
-          "sensor": "viirs",
-          "description": "VIIRS M14",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 817,
-          "sensor": "viirs",
-          "description": "VIIRS I05",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 818,
-          "sensor": "viirs",
-          "description": "VIIRS I01",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 819,
-          "sensor": "viirs",
-          "description": "VIIRS I02",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 820,
-          "sensor": "viirs",
-          "description": "VIIRS I03",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 821,
-          "sensor": "viirs",
-          "description": "VIIRS DNB",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 822,
-          "sensor": "viirs",
-          "description": "VIIRS DNB MSG",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 823,
-          "sensor": "viirs",
-          "description": "VIIRS DNB LGS",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 825,
-          "sensor": "viirs",
-          "description": "VIIRS cal",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 826,
-          "sensor": "viirs",
-          "description": "VIIRS engr",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        },
-        {
-          "apid": 824,
-          "sensor": "viirs",
-          "description": "VIIRS Test",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        }
-      ]
+      "apid": 1320,
+      "sensor": "cris",
+      "description": "CrIS LW 6 earth scene",
+      "timecode": "cds",
+      "vcid": 6
     },
     {
-      "vcid": 17,
-      "description": "VIIRS sci/cal/engr",
-      "apids": [
-        {
-          "apid": 117,
-          "sensor": "spacecraft",
-          "description": "S/C test/fill"
-        },
-        {
-          "apid": 806,
-          "sensor": "viirs",
-          "description": "VIIRS M07",
-          "timecodeFormat": {
-            "epoch": "1958-01-01T00:00:00Z",
-            "format": "cds",
-            "offset": 0,
-            "numDay": 2,
-            "numSubmillis": 2
-          }
-        }
-      ]
+      "apid": 1321,
+      "sensor": "cris",
+      "description": "CrIS LW 7 earth scene",
+      "timecode": "cds",
+      "vcid": 6
     },
     {
-      "vcid": 18,
-      "description": "VIIRS diag",
-      "apids": [
-        {
-          "apid": 770,
-          "sensor": "viirs",
-          "description": "Test"
-        },
-        {
-          "apid": 830,
-          "sensor": "viirs",
-          "description": "VIIRS M04 Diag"
-        },
-        {
-          "apid": 831,
-          "sensor": "viirs",
-          "description": "VIIRS M05 Diag"
-        },
-        {
-          "apid": 832,
-          "sensor": "viirs",
-          "description": "VIIRS M03 Diag"
-        },
-        {
-          "apid": 833,
-          "sensor": "viirs",
-          "description": "VIIRS M02 Diag"
-        },
-        {
-          "apid": 834,
-          "sensor": "viirs",
-          "description": "VIIRS M01 Diag"
-        },
-        {
-          "apid": 835,
-          "sensor": "viirs",
-          "description": "VIIRS M06 Diag"
-        },
-        {
-          "apid": 836,
-          "sensor": "viirs",
-          "description": "VIIRS M07 Diag"
-        },
-        {
-          "apid": 837,
-          "sensor": "viirs",
-          "description": "VIIRS M09 Diag"
-        },
-        {
-          "apid": 838,
-          "sensor": "viirs",
-          "description": "VIIRS M10 Diag"
-        },
-        {
-          "apid": 839,
-          "sensor": "viirs",
-          "description": "VIIRS M08 Diag"
-        },
-        {
-          "apid": 840,
-          "sensor": "viirs",
-          "description": "VIIRS M11 Diag"
-        },
-        {
-          "apid": 841,
-          "sensor": "viirs",
-          "description": "VIIRS M13 Diag"
-        },
-        {
-          "apid": 842,
-          "sensor": "viirs",
-          "description": "VIIRS M12 Diag"
-        },
-        {
-          "apid": 843,
-          "sensor": "viirs",
-          "description": "VIIRS I04 Diag"
-        },
-        {
-          "apid": 844,
-          "sensor": "viirs",
-          "description": "VIIRS M16 Diag"
-        },
-        {
-          "apid": 845,
-          "sensor": "viirs",
-          "description": "VIIRS M15 Diag"
-        },
-        {
-          "apid": 846,
-          "sensor": "viirs",
-          "description": "VIIRS M14 Diag"
-        },
-        {
-          "apid": 847,
-          "sensor": "viirs",
-          "description": "VIIRS I05 Diag"
-        },
-        {
-          "apid": 848,
-          "sensor": "viirs",
-          "description": "VIIRS I01 Diag"
-        },
-        {
-          "apid": 849,
-          "sensor": "viirs",
-          "description": "VIIRS I02 Diag"
-        },
-        {
-          "apid": 850,
-          "sensor": "viirs",
-          "description": "VIIRS I03 Diag"
-        },
-        {
-          "apid": 851,
-          "sensor": "viirs",
-          "description": "VIIRS DNB Diag"
-        },
-        {
-          "apid": 852,
-          "sensor": "viirs",
-          "description": "VIIRS DNB MGS Diag"
-        },
-        {
-          "apid": 853,
-          "sensor": "viirs",
-          "description": "VIIRS DNB LGS Diag"
-        },
-        {
-          "apid": 855,
-          "sensor": "viirs",
-          "description": "VIIRS cal Diag"
-        },
-        {
-          "apid": 856,
-          "sensor": "viirs",
-          "description": "VIIRS engr Diag"
-        },
-        {
-          "apid": 854,
-          "sensor": "viirs",
-          "description": "VIIRS Diag"
-        }
-      ]
+      "apid": 1322,
+      "sensor": "cris",
+      "description": "CrIS LW 8 earth scene",
+      "timecode": "cds",
+      "vcid": 6
     },
     {
-      "vcid": 21,
-      "description": "Instrument dump/dwell",
-      "apids": [
-        {
-          "apid": 517,
-          "sensor": "atms",
-          "description": "ATMS dwell"
-        },
-        {
-          "apid": 524,
-          "sensor": "atms",
-          "description": "ATMS mem dump"
-        },
-        {
-          "apid": 549,
-          "sensor": "omps",
-          "description": "OMPS dwell"
-        },
-        {
-          "apid": 556,
-          "sensor": "omps",
-          "description": "OMPS dump"
-        },
-        {
-          "apid": 780,
-          "sensor": "viirs",
-          "description": "Dump"
-        },
-        {
-          "apid": 1291,
-          "sensor": "cris",
-          "description": "CrIS hk telemetry dwell"
-        },
-        {
-          "apid": 1292,
-          "sensor": "cris",
-          "description": "CrIS ssm telemetry dwell"
-        },
-        {
-          "apid": 1293,
-          "sensor": "cris",
-          "description": "CrIS ifm telemetry dwell"
-        },
-        {
-          "apid": 1397,
-          "sensor": "cris",
-          "description": "CrIS dump"
-        }
-      ]
+      "apid": 1323,
+      "sensor": "cris",
+      "description": "CrIS LW 9 earth scene",
+      "timecode": "cds",
+      "vcid": 6
     },
     {
-      "vcid": 24,
-      "description": "CERES sci/cal/engr",
-      "apids": [
-        {
-          "apid": 147,
-          "sensor": "ceres",
-          "description": "CERES cal"
-        },
-        {
-          "apid": 148,
-          "sensor": "ceres",
-          "description": "CERES fixed"
-        },
-        {
-          "apid": 149,
-          "sensor": "ceres",
-          "description": "CERES sci"
-        },
-        {
-          "apid": 150,
-          "sensor": "ceres",
-          "description": "CERES diag"
-        }
-      ]
+      "apid": 1324,
+      "sensor": "cris",
+      "description": "CrIS MW 1 earth scene",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1325,
+      "sensor": "cris",
+      "description": "CrIS MW 2 earth scene",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1326,
+      "sensor": "cris",
+      "description": "CrIS MW 3 earth scene",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1328,
+      "sensor": "cris",
+      "description": "CrIS MW 5 earth scene",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1329,
+      "sensor": "cris",
+      "description": "CrIS MW 6 earth scene",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1330,
+      "sensor": "cris",
+      "description": "CrIS MW 7 earth scene",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1331,
+      "sensor": "cris",
+      "description": "CrIS MW 8 earth scene",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1332,
+      "sensor": "cris",
+      "description": "CrIS MW 9 earth scene",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1333,
+      "sensor": "cris",
+      "description": "CrIS SW 1 earth scene",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1334,
+      "sensor": "cris",
+      "description": "CrIS SW 2 earth scene",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1335,
+      "sensor": "cris",
+      "description": "CrIS SW 3 earth scene",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1337,
+      "sensor": "cris",
+      "description": "CrIS SW 5 earth scene",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1338,
+      "sensor": "cris",
+      "description": "CrIS SW 6 earth scene",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1339,
+      "sensor": "cris",
+      "description": "CrIS SW 7 earth scene",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1340,
+      "sensor": "cris",
+      "description": "CrIS SW 8 earth scene",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1341,
+      "sensor": "cris",
+      "description": "CrIS SW 9 earth scene",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1342,
+      "sensor": "cris",
+      "description": "CrIS LW 1 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1343,
+      "sensor": "cris",
+      "description": "CrIS LW 2 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1344,
+      "sensor": "cris",
+      "description": "CrIS LW 3 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1346,
+      "sensor": "cris",
+      "description": "CrIS LW 5 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1347,
+      "sensor": "cris",
+      "description": "CrIS LW 6 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1348,
+      "sensor": "cris",
+      "description": "CrIS LW 7 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1349,
+      "sensor": "cris",
+      "description": "CrIS LW 8 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1350,
+      "sensor": "cris",
+      "description": "CrIS LW 9 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1351,
+      "sensor": "cris",
+      "description": "CrIS MW 1 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1352,
+      "sensor": "cris",
+      "description": "CrIS MW 2 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1353,
+      "sensor": "cris",
+      "description": "CrIS MW 3 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1355,
+      "sensor": "cris",
+      "description": "CrIS MW 5 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1356,
+      "sensor": "cris",
+      "description": "CrIS MW 6 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1357,
+      "sensor": "cris",
+      "description": "CrIS MW 7 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1358,
+      "sensor": "cris",
+      "description": "CrIS MW 8 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1359,
+      "sensor": "cris",
+      "description": "CrIS MW 9 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1360,
+      "sensor": "cris",
+      "description": "CrIS SW 1 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1361,
+      "sensor": "cris",
+      "description": "CrIS SW 2 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1362,
+      "sensor": "cris",
+      "description": "CrIS SW 3 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1364,
+      "sensor": "cris",
+      "description": "CrIS SW 5 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1365,
+      "sensor": "cris",
+      "description": "CrIS SW 6 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1366,
+      "sensor": "cris",
+      "description": "CrIS SW 7 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1367,
+      "sensor": "cris",
+      "description": "CrIS SW 8 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1368,
+      "sensor": "cris",
+      "description": "CrIS SW 9 deep space",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1369,
+      "sensor": "cris",
+      "description": "CrIS LW 1 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1370,
+      "sensor": "cris",
+      "description": "CrIS LW 2 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1371,
+      "sensor": "cris",
+      "description": "CrIS LW 3 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1373,
+      "sensor": "cris",
+      "description": "CrIS LW 5 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1374,
+      "sensor": "cris",
+      "description": "CrIS LW 6 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1375,
+      "sensor": "cris",
+      "description": "CrIS LW 7 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1376,
+      "sensor": "cris",
+      "description": "CrIS LW 8 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1377,
+      "sensor": "cris",
+      "description": "CrIS LW 9 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1378,
+      "sensor": "cris",
+      "description": "CrIS MW 1 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1379,
+      "sensor": "cris",
+      "description": "CrIS MW 2 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1380,
+      "sensor": "cris",
+      "description": "CrIS MW 3 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1382,
+      "sensor": "cris",
+      "description": "CrIS MW 5 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1383,
+      "sensor": "cris",
+      "description": "CrIS MW 6 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1384,
+      "sensor": "cris",
+      "description": "CrIS MW 7 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1385,
+      "sensor": "cris",
+      "description": "CrIS MW 8 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1386,
+      "sensor": "cris",
+      "description": "CrIS MW 9 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1387,
+      "sensor": "cris",
+      "description": "CrIS SW 1 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1388,
+      "sensor": "cris",
+      "description": "CrIS SW 2 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1389,
+      "sensor": "cris",
+      "description": "CrIS SW 3 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1391,
+      "sensor": "cris",
+      "description": "CrIS SW 5 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1392,
+      "sensor": "cris",
+      "description": "CrIS SW 6 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1393,
+      "sensor": "cris",
+      "description": "CrIS SW 7 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1394,
+      "sensor": "cris",
+      "description": "CrIS SW 8 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1395,
+      "sensor": "cris",
+      "description": "CrIS SW 9 internal cal",
+      "timecode": "cds",
+      "vcid": 6
+    },
+    {
+      "apid": 1318,
+      "sensor": "cris",
+      "description": "CrIS LW 4 earth scene",
+      "timecode": "cds",
+      "vcid": 7
+    },
+    {
+      "apid": 1327,
+      "sensor": "cris",
+      "description": "CrIS MW 4 earth scene",
+      "timecode": "cds",
+      "vcid": 7
+    },
+    {
+      "apid": 1336,
+      "sensor": "cris",
+      "description": "CrIS SW 4 earth scene",
+      "timecode": "cds",
+      "vcid": 7
+    },
+    {
+      "apid": 1345,
+      "sensor": "cris",
+      "description": "CrIS LW 4 deep space",
+      "timecode": "cds",
+      "vcid": 7
+    },
+    {
+      "apid": 1354,
+      "sensor": "cris",
+      "description": "CrIS MW 4 deep space",
+      "timecode": "cds",
+      "vcid": 7
+    },
+    {
+      "apid": 1363,
+      "sensor": "cris",
+      "description": "CrIS SW 4 deep space",
+      "timecode": "cds",
+      "vcid": 7
+    },
+    {
+      "apid": 1372,
+      "sensor": "cris",
+      "description": "CrIS LW 4 internal cal",
+      "timecode": "cds",
+      "vcid": 7
+    },
+    {
+      "apid": 1381,
+      "sensor": "cris",
+      "description": "CrIS MW 4 internal cal",
+      "timecode": "cds",
+      "vcid": 7
+    },
+    {
+      "apid": 1390,
+      "sensor": "cris",
+      "description": "CrIS SW 4 internal cal",
+      "timecode": "cds",
+      "vcid": 7
+    },
+    {
+      "apid": 1294,
+      "sensor": "cris",
+      "description": "CrIS lw diag",
+      "timecode": "cds",
+      "vcid": 8
+    },
+    {
+      "apid": 1295,
+      "sensor": "cris",
+      "description": "CrIS mw diag",
+      "timecode": "cds",
+      "vcid": 8
+    },
+    {
+      "apid": 1296,
+      "sensor": "cris",
+      "description": "CrIS sw diag",
+      "timecode": "cds",
+      "vcid": 8
+    },
+    {
+      "apid": 1398,
+      "sensor": "cris",
+      "description": "CrIS test",
+      "timecode": "cds",
+      "vcid": 8
+    },
+    {
+      "apid": 560,
+      "sensor": "omps",
+      "description": "OMPS sci nadir total col",
+      "timecode": "cds",
+      "vcid": 11
+    },
+    {
+      "apid": 561,
+      "sensor": "omps",
+      "description": "OMPS sci nadir profiler",
+      "timecode": "cds",
+      "vcid": 11
+    },
+    {
+      "apid": 564,
+      "sensor": "omps",
+      "description": "OMPS sci nadir total col cal",
+      "timecode": "cds",
+      "vcid": 11
+    },
+    {
+      "apid": 565,
+      "sensor": "omps",
+      "description": "OMPS sci nadir profiler cal",
+      "timecode": "cds",
+      "vcid": 11
+    },
+    {
+      "apid": 576,
+      "sensor": "omps",
+      "description": "OMPS diag nadir total col",
+      "timecode": "cds",
+      "vcid": 11
+    },
+    {
+      "apid": 562,
+      "sensor": "omps",
+      "description": "OMPS sci limb profiler, long",
+      "timecode": "cds",
+      "vcid": 12
+    },
+    {
+      "apid": 563,
+      "sensor": "omps",
+      "description": "OMPS sci limb profiler, short",
+      "timecode": "cds",
+      "vcid": 12
+    },
+    {
+      "apid": 566,
+      "sensor": "omps",
+      "description": "OMPS scid limb profiler cal",
+      "timecode": "cds",
+      "vcid": 12
+    },
+    {
+      "apid": 546,
+      "sensor": "omps",
+      "description": "OMPS test",
+      "timecode": "cds",
+      "vcid": 13
+    },
+    {
+      "apid": 577,
+      "sensor": "omps",
+      "description": "OMPS diag nadir profiler",
+      "timecode": "cds",
+      "vcid": 13
+    },
+    {
+      "apid": 578,
+      "sensor": "omps",
+      "description": "OMPS diag limb profiler long",
+      "timecode": "cds",
+      "vcid": 13
+    },
+    {
+      "apid": 579,
+      "sensor": "omps",
+      "description": "OMPS diag limb profiler short",
+      "timecode": "cds",
+      "vcid": 13
+    },
+    {
+      "apid": 580,
+      "sensor": "omps",
+      "description": "OMPS diag total col cal",
+      "timecode": "cds",
+      "vcid": 13
+    },
+    {
+      "apid": 581,
+      "sensor": "omps",
+      "description": "OMPS diag nadir profiler cal",
+      "timecode": "cds",
+      "vcid": 13
+    },
+    {
+      "apid": 582,
+      "sensor": "omps",
+      "description": "OMPS diag limb profiler cal",
+      "timecode": "cds",
+      "vcid": 13
+    },
+    {
+      "apid": 800,
+      "sensor": "viirs",
+      "description": "VIIRS M04",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 801,
+      "sensor": "viirs",
+      "description": "VIIRS M05",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 802,
+      "sensor": "viirs",
+      "description": "VIIRS M03",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 803,
+      "sensor": "viirs",
+      "description": "VIIRS M02",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 804,
+      "sensor": "viirs",
+      "description": "VIIRS M01",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 805,
+      "sensor": "viirs",
+      "description": "VIIRS M06",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 807,
+      "sensor": "viirs",
+      "description": "VIIRS M09",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 808,
+      "sensor": "viirs",
+      "description": "VIIRS M10",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 809,
+      "sensor": "viirs",
+      "description": "VIIRS M08",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 810,
+      "sensor": "viirs",
+      "description": "VIIRS M11",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 811,
+      "sensor": "viirs",
+      "description": "VIIRS M13",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 812,
+      "sensor": "viirs",
+      "description": "VIIRS M12",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 813,
+      "sensor": "viirs",
+      "description": "VIIRS I04",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 814,
+      "sensor": "viirs",
+      "description": "VIIRS M16",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 815,
+      "sensor": "viirs",
+      "description": "VIIRS M15",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 816,
+      "sensor": "viirs",
+      "description": "VIIRS M14",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 817,
+      "sensor": "viirs",
+      "description": "VIIRS I05",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 818,
+      "sensor": "viirs",
+      "description": "VIIRS I01",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 819,
+      "sensor": "viirs",
+      "description": "VIIRS I02",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 820,
+      "sensor": "viirs",
+      "description": "VIIRS I03",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 821,
+      "sensor": "viirs",
+      "description": "VIIRS DNB",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 822,
+      "sensor": "viirs",
+      "description": "VIIRS DNB MSG",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 823,
+      "sensor": "viirs",
+      "description": "VIIRS DNB LGS",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 825,
+      "sensor": "viirs",
+      "description": "VIIRS cal",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 826,
+      "sensor": "viirs",
+      "description": "VIIRS engr",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 824,
+      "sensor": "viirs",
+      "description": "VIIRS Test",
+      "timecode": "cds",
+      "vcid": 16
+    },
+    {
+      "apid": 117,
+      "sensor": "spacecraft",
+      "description": "S/C test/fill",
+      "timecode": "cds",
+      "vcid": 17
+    },
+    {
+      "apid": 806,
+      "sensor": "viirs",
+      "description": "VIIRS M07",
+      "timecode": "cds",
+      "vcid": 17
+    },
+    {
+      "apid": 770,
+      "sensor": "viirs",
+      "description": "Test",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 830,
+      "sensor": "viirs",
+      "description": "VIIRS M04 Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 831,
+      "sensor": "viirs",
+      "description": "VIIRS M05 Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 832,
+      "sensor": "viirs",
+      "description": "VIIRS M03 Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 833,
+      "sensor": "viirs",
+      "description": "VIIRS M02 Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 834,
+      "sensor": "viirs",
+      "description": "VIIRS M01 Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 835,
+      "sensor": "viirs",
+      "description": "VIIRS M06 Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 836,
+      "sensor": "viirs",
+      "description": "VIIRS M07 Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 837,
+      "sensor": "viirs",
+      "description": "VIIRS M09 Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 838,
+      "sensor": "viirs",
+      "description": "VIIRS M10 Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 839,
+      "sensor": "viirs",
+      "description": "VIIRS M08 Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 840,
+      "sensor": "viirs",
+      "description": "VIIRS M11 Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 841,
+      "sensor": "viirs",
+      "description": "VIIRS M13 Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 842,
+      "sensor": "viirs",
+      "description": "VIIRS M12 Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 843,
+      "sensor": "viirs",
+      "description": "VIIRS I04 Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 844,
+      "sensor": "viirs",
+      "description": "VIIRS M16 Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 845,
+      "sensor": "viirs",
+      "description": "VIIRS M15 Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 846,
+      "sensor": "viirs",
+      "description": "VIIRS M14 Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 847,
+      "sensor": "viirs",
+      "description": "VIIRS I05 Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 848,
+      "sensor": "viirs",
+      "description": "VIIRS I01 Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 849,
+      "sensor": "viirs",
+      "description": "VIIRS I02 Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 850,
+      "sensor": "viirs",
+      "description": "VIIRS I03 Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 851,
+      "sensor": "viirs",
+      "description": "VIIRS DNB Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 852,
+      "sensor": "viirs",
+      "description": "VIIRS DNB MGS Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 853,
+      "sensor": "viirs",
+      "description": "VIIRS DNB LGS Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 855,
+      "sensor": "viirs",
+      "description": "VIIRS cal Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 856,
+      "sensor": "viirs",
+      "description": "VIIRS engr Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 854,
+      "sensor": "viirs",
+      "description": "VIIRS Diag",
+      "timecode": "cds",
+      "vcid": 18
+    },
+    {
+      "apid": 517,
+      "sensor": "atms",
+      "description": "ATMS dwell",
+      "timecode": "cds",
+      "vcid": 21
+    },
+    {
+      "apid": 524,
+      "sensor": "atms",
+      "description": "ATMS mem dump",
+      "timecode": "cds",
+      "vcid": 21
+    },
+    {
+      "apid": 549,
+      "sensor": "omps",
+      "description": "OMPS dwell",
+      "timecode": "cds",
+      "vcid": 21
+    },
+    {
+      "apid": 556,
+      "sensor": "omps",
+      "description": "OMPS dump",
+      "timecode": "cds",
+      "vcid": 21
+    },
+    {
+      "apid": 780,
+      "sensor": "viirs",
+      "description": "Dump",
+      "timecode": "cds",
+      "vcid": 21
+    },
+    {
+      "apid": 1291,
+      "sensor": "cris",
+      "description": "CrIS hk telemetry dwell",
+      "timecode": "cds",
+      "vcid": 21
+    },
+    {
+      "apid": 1292,
+      "sensor": "cris",
+      "description": "CrIS ssm telemetry dwell",
+      "timecode": "cds",
+      "vcid": 21
+    },
+    {
+      "apid": 1293,
+      "sensor": "cris",
+      "description": "CrIS ifm telemetry dwell",
+      "timecode": "cds",
+      "vcid": 21
+    },
+    {
+      "apid": 1397,
+      "sensor": "cris",
+      "description": "CrIS dump",
+      "timecode": "cds",
+      "vcid": 21
+    },
+    {
+      "apid": 147,
+      "sensor": "ceres",
+      "description": "CERES cal",
+      "timecode": "cds",
+      "vcid": 24
+    },
+    {
+      "apid": 148,
+      "sensor": "ceres",
+      "description": "CERES fixed",
+      "timecode": "cds",
+      "vcid": 24
+    },
+    {
+      "apid": 149,
+      "sensor": "ceres",
+      "description": "CERES sci",
+      "timecode": "cds",
+      "vcid": 24
+    },
+    {
+      "apid": 150,
+      "sensor": "ceres",
+      "description": "CERES diag",
+      "timecode": "cds",
+      "vcid": 24
     }
   ]
 }

@@ -2,8 +2,13 @@
   "scid": 42,
   "name": "terra",
   "aliases": [],
-  "catalogNumber": 25944,
-  "framingConfig": {
+  "vcids": [
+    {
+      "vcid": 42,
+      "description": ""
+    }
+  ],
+  "framing": {
     "length": 892,
     "insertZoneLength": 0,
     "trailerLength": 0,
@@ -12,19 +17,17 @@
       "interleave": 4,
       "virtualFillLength": 0,
       "numCorrectable": 16
-    }
+    },
+    "type": "ccsds_aos"
   },
-  "vcids": [
+  "noradCatalogID": 25944,
+  "apids": [
     {
-      "vcid": 42,
-      "description": "",
-      "apids": [
-        {
-          "apid": 64,
-          "sensor": "modis",
-          "description": "MODIS sci engr"
-        }
-      ]
+      "apid": 64,
+      "sensor": "modis",
+      "description": "MODIS sci engr",
+      "timecode": "cds",
+      "vcid": 42
     }
   ]
 }
