@@ -1,0 +1,466 @@
+{
+  "scid": 254,
+  "name": "gosat-gw",
+  "aliases": [
+    "ggw"
+  ],
+  "vcids": [
+    {
+      "vcid": 1,
+      "description": "RT HK"
+    },
+    {
+      "vcid": 2,
+      "description": "RT AOCS"
+    },
+    {
+      "vcid": 3,
+      "description": "RT AMSR3 mission"
+    },
+    {
+      "vcid": 4,
+      "description": "RT DM mission"
+    },
+    {
+      "vcid": 33,
+      "description": "HK"
+    },
+    {
+      "vcid": 34,
+      "description": "AOCS"
+    },
+    {
+      "vcid": 35,
+      "description": "AMSR3 mission"
+    },
+    {
+      "vcid": 36,
+      "description": "DM mission"
+    }
+  ],
+  "framing": {
+    "length": 220,
+    "ocfPresent": true,
+    "pseudoNoise": {},
+    "reedSolomon": {
+      "interleave": 1,
+      "virtualFillLength": 3,
+      "numCorrectable": 16
+    },
+    "type": "ccsds_aos"
+  },
+  "noradCatalogID": 64694,
+  "timecodes": {
+    "cuc": {
+      "format": "cuc",
+      "epoch": "2012-12-31T23:59:59Z",
+      "basicLength": 4,
+      "fineNanos": 16000,
+      "selfIdentifying": true
+    }
+  },
+  "apids": [
+    {
+      "apid": 208,
+      "vcid": 1,
+      "description": "cdms_hk"
+    },
+    {
+      "apid": 976,
+      "vcid": 1,
+      "description": "cdms_atn_log_dump"
+    },
+    {
+      "apid": 977,
+      "vcid": 1,
+      "description": "cdms_cmd_log_dump"
+    },
+    {
+      "apid": 978,
+      "vcid": 1,
+      "description": "cdms_tlm_data_set_dump"
+    },
+    {
+      "apid": 980,
+      "vcid": 1,
+      "description": "cdms_scmd_tbl_dump"
+    },
+    {
+      "apid": 981,
+      "vcid": 1,
+      "description": "cdms_acmd_tbl_dump"
+    },
+    {
+      "apid": 982,
+      "vcid": 1,
+      "description": "cdms_athk_tbl_dump"
+    },
+    {
+      "apid": 983,
+      "vcid": 1,
+      "description": "cdms_1553b_pro"
+    },
+    {
+      "apid": 984,
+      "vcid": 1,
+      "description": "cdms_mcmd_tbl_dump"
+    },
+    {
+      "apid": 985,
+      "vcid": 1,
+      "description": "cdms_tasl_pro"
+    },
+    {
+      "apid": 986,
+      "vcid": 1,
+      "description": "cdms_ram_dump"
+    },
+    {
+      "apid": 987,
+      "vcid": 1,
+      "description": "CDMS_ROM_DUMP"
+    },
+    {
+      "apid": 988,
+      "vcid": 1,
+      "description": "CDMS_EEPROM_DUMP"
+    },
+    {
+      "apid": 989,
+      "vcid": 1,
+      "description": "CDMS_RCHK_TBL_DUMP"
+    },
+    {
+      "apid": 990,
+      "vcid": 1,
+      "description": "CDMS_RCMD_LOG_DUMP"
+    },
+    {
+      "apid": 991,
+      "vcid": 1,
+      "description": "CDMS_HTR_TBL_DUMP"
+    },
+    {
+      "apid": 151,
+      "vcid": 1,
+      "description": "AOCE_HK"
+    },
+    {
+      "apid": 145,
+      "vcid": 1,
+      "description": "AOCE_EEPROM_DUMP"
+    },
+    {
+      "apid": 144,
+      "vcid": 1,
+      "description": "AOCE_EEPROM_STS_PRO"
+    },
+    {
+      "apid": 160,
+      "vcid": 1,
+      "description": "RIM_HK"
+    },
+    {
+      "apid": 929,
+      "vcid": 1,
+      "description": "RIM_DWELL"
+    },
+    {
+      "apid": 48,
+      "vcid": 1,
+      "description": "MDP_HK"
+    },
+    {
+      "apid": 816,
+      "vcid": 1,
+      "description": "MDP_DUMP"
+    },
+    {
+      "apid": 16,
+      "vcid": 1,
+      "description": "AMSR3_HK"
+    },
+    {
+      "apid": 784,
+      "vcid": 1,
+      "description": "AMSR3_DUMP"
+    },
+    {
+      "apid": 785,
+      "vcid": 1,
+      "description": "AMSR3_DYNAMICS"
+    },
+    {
+      "apid": 786,
+      "vcid": 1,
+      "description": "AMSR3_SEN_PARAM"
+    },
+    {
+      "apid": 787,
+      "vcid": 1,
+      "description": "AMSR3_HR_DATA_DUMP"
+    },
+    {
+      "apid": 32,
+      "vcid": 1,
+      "description": "OC_HK"
+    },
+    {
+      "apid": 800,
+      "vcid": 1,
+      "description": "OC_DUMP"
+    },
+    {
+      "apid": 810,
+      "vcid": 1,
+      "description": "FPA-E_DUMP"
+    },
+    {
+      "apid": 832,
+      "vcid": 1,
+      "description": "OC_AMSR3_REF_TIME"
+    },
+    {
+      "apid": 128,
+      "vcid": 1,
+      "description": "DM_HK"
+    },
+    {
+      "apid": 208,
+      "vcid": 33,
+      "description": "cdms_hk"
+    },
+    {
+      "apid": 976,
+      "vcid": 33,
+      "description": "cdms_atn_log_dump"
+    },
+    {
+      "apid": 977,
+      "vcid": 33,
+      "description": "cdms_cmd_log_dump"
+    },
+    {
+      "apid": 978,
+      "vcid": 33,
+      "description": "cdms_tlm_data_set_dump"
+    },
+    {
+      "apid": 980,
+      "vcid": 33,
+      "description": "cdms_scmd_tbl_dump"
+    },
+    {
+      "apid": 981,
+      "vcid": 33,
+      "description": "cdms_acmd_tbl_dump"
+    },
+    {
+      "apid": 982,
+      "vcid": 33,
+      "description": "cdms_athk_tbl_dump"
+    },
+    {
+      "apid": 983,
+      "vcid": 33,
+      "description": "cdms_1553b_pro"
+    },
+    {
+      "apid": 984,
+      "vcid": 33,
+      "description": "cdms_mcmd_tbl_dump"
+    },
+    {
+      "apid": 985,
+      "vcid": 33,
+      "description": "cdms_tasl_pro"
+    },
+    {
+      "apid": 986,
+      "vcid": 33,
+      "description": "cdms_ram_dump"
+    },
+    {
+      "apid": 987,
+      "vcid": 33,
+      "description": "CDMS_ROM_DUMP"
+    },
+    {
+      "apid": 988,
+      "vcid": 33,
+      "description": "CDMS_EEPROM_DUMP"
+    },
+    {
+      "apid": 989,
+      "vcid": 33,
+      "description": "CDMS_RCHK_TBL_DUMP"
+    },
+    {
+      "apid": 990,
+      "vcid": 33,
+      "description": "CDMS_RCMD_LOG_DUMP"
+    },
+    {
+      "apid": 991,
+      "vcid": 33,
+      "description": "CDMS_HTR_TBL_DUMP"
+    },
+    {
+      "apid": 151,
+      "vcid": 33,
+      "description": "AOCE_HK"
+    },
+    {
+      "apid": 145,
+      "vcid": 33,
+      "description": "AOCE_EEPROM_DUMP"
+    },
+    {
+      "apid": 144,
+      "vcid": 33,
+      "description": "AOCE_EEPROM_STS_PRO"
+    },
+    {
+      "apid": 160,
+      "vcid": 33,
+      "description": "RIM_HK"
+    },
+    {
+      "apid": 929,
+      "vcid": 33,
+      "description": "RIM_DWELL"
+    },
+    {
+      "apid": 48,
+      "vcid": 33,
+      "description": "MDP_HK"
+    },
+    {
+      "apid": 816,
+      "vcid": 33,
+      "description": "MDP_DUMP"
+    },
+    {
+      "apid": 16,
+      "vcid": 33,
+      "description": "AMSR3_HK"
+    },
+    {
+      "apid": 784,
+      "vcid": 33,
+      "description": "AMSR3_DUMP"
+    },
+    {
+      "apid": 785,
+      "vcid": 33,
+      "description": "AMSR3_DYNAMICS"
+    },
+    {
+      "apid": 786,
+      "vcid": 33,
+      "description": "AMSR3_SEN_PARAM"
+    },
+    {
+      "apid": 787,
+      "vcid": 33,
+      "description": "AMSR3_HR_DATA_DUMP"
+    },
+    {
+      "apid": 32,
+      "vcid": 33,
+      "description": "OC_HK"
+    },
+    {
+      "apid": 800,
+      "vcid": 33,
+      "description": "OC_DUMP"
+    },
+    {
+      "apid": 810,
+      "vcid": 33,
+      "description": "FPA-E_DUMP"
+    },
+    {
+      "apid": 832,
+      "vcid": 33,
+      "description": "OC_AMSR3_REF_TIME"
+    },
+    {
+      "apid": 128,
+      "vcid": 33,
+      "description": "DM_HK"
+    },
+    {
+      "apid": 921,
+      "vcid": 2,
+      "description": "AOCE_GPS_PRO"
+    },
+    {
+      "apid": 923,
+      "vcid": 2,
+      "description": "AOCE_STT_ORB_PRO"
+    },
+    {
+      "apid": 924,
+      "vcid": 2,
+      "description": "AOCE_HK_DUMP"
+    },
+    {
+      "apid": 925,
+      "vcid": 2,
+      "description": "AOCE_GPS_REPRO_DUMP"
+    },
+    {
+      "apid": 926,
+      "vcid": 2,
+      "description": "AOCE_STT_PRO"
+    },
+    {
+      "apid": 921,
+      "vcid": 34,
+      "description": "AOCE_GPS_PRO"
+    },
+    {
+      "apid": 923,
+      "vcid": 34,
+      "description": "AOCE_STT_ORB_PRO"
+    },
+    {
+      "apid": 924,
+      "vcid": 34,
+      "description": "AOCE_HK_DUMP"
+    },
+    {
+      "apid": 925,
+      "vcid": 34,
+      "description": "AOCE_GPS_REPRO_DUMP"
+    },
+    {
+      "apid": 926,
+      "vcid": 34,
+      "description": "AOCE_STT_PRO"
+    },
+    {
+      "apid": 1153,
+      "vcid": 4,
+      "description": "DM_OBS_S"
+    },
+    {
+      "apid": 1153,
+      "vcid": 36,
+      "description": "DM_OBS_S"
+    },
+    {
+      "apid": 1424,
+      "vcid": 1,
+      "description": "AMSR3_OBS_S",
+      "timecode": "cuc"
+    },
+    {
+      "apid": 1424,
+      "vcid": 35,
+      "description": "AMSR3_OBS_S",
+      "timecode": "cuc"
+    }
+  ]
+}

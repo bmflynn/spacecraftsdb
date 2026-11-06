@@ -2,17 +2,16 @@
 Spacecraft metadata and configuration database in JSON format.
 
 ## Schema
+* [Spacecraft](./schemas/spacecraft.json)
 * [Database](./schemas/db.json)
 * [Input Data](./schemas/input.json)
 
-Verify the document:
+Install [check-jsonschema]
 ```
-pipx install check-jsonschema
-check-jsonschema --schemafile schemas/db.json spacecraftsdb.json
+uv tool install check-jsonschema
 ```
 
-Verify the document input
-```
-pipx install check-jsonschema
-check-jsonschema --base-uri="" --schemafile schemas/input.json spacecrafts.data.json
+Verify the spacecrafts
+```sh 
+./scripts/check.sh
 ```
